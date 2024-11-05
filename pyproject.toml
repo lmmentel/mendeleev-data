@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mendeleev-data"
+version = "0.18.1"
+description = "Periodic table data for the mendeleev package"
+authors = ["Lukasz Mentel <lmmentel@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python =  ">=3.9,<3.13"
+mendeleev = "0.18.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

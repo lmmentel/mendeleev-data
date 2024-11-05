@@ -1,0 +1,224 @@
+1,elements,abundance_crust,Element,abundance_crust,abundance,STORED,"Abundance in the Earth's crust",mg/kg,,haynes2014crc
+2,elements,abundance_sea,Element,abundance_sea,abundance,STORED,"Abundance in the seas",mg/L,,haynes2014crc
+3,elements,atomic_number,Element,atomic_number,"basic properties",STORED,"Atomic number",,,
+4,elements,atomic_radius,Element,atomic_radius,"atomic size properties",STORED,"Atomic radius",pm,,Slater1964
+5,elements,atomic_radius_rahm,Element,atomic_radius_rahm,"atomic size properties",STORED,"Atomic radius by Rahm et al.",pm,,"Rahm2016,Rahm2017"
+6,elements,atomic_volume,Element,atomic_volume,"atomic size properties",STORED,"Atomic volume",cm^3/mol,,
+7,elements,atomic_weight,Element,atomic_weight,"basic properties",STORED,"Relative atomic weight",Da,"Atomic weights and their uncertainties were retrieved mainly from ref. :cite:`iupac-weights`. For elements whose values were given as ranges the *conventional atomic weights* from Table 3 in ref. :cite:`Meija2016` were taken. For radioactive elements the standard approach was adopted where the weight is taken as the mass number of the most stable isotope. The data was obtained from `CIAAW page on radioactive elements <http://www.ciaaw.org/radioactive-elements.htm>`_. In cases where two isotopes were specified the one with the smaller standard deviation was chosen. In case of Tc and Pm relative weights of their isotopes were used, for Tc isotope 98, and for Pm isotope 145 were taken from `CIAAW <http://www.ciaaw.org/atomic-masses.htm>`_.","Meija2016,iupac-weights"
+8,elements,atomic_weight_uncertainty,Element,atomic_weight_uncertainty,"basic properties",STORED,"Atomic weight uncertainty",Da,,"Meija2016,iupac-weights"
+9,elements,block,Element,block,"periodic table properties",STORED,"Block in periodic table",,,
+10,elements,c6,Element,c6,"electric and optical properties",STORED,"C_6 dispersion coefficient",hartree/bohr^6,,"Chu2004,Tang1976"
+11,elements,c6_gb,Element,c6_gb,"electric and optical properties",STORED,"C_6 dispersion coefficient according to Gould & Bučko",hartree/bohr^6,,Gould2016
+12,elements,cas,Element,cas,identifiers,STORED,"Chemical Abstracts Serice identifier",,,
+13,elements,covalent_radius_bragg,Element,covalent_radius_bragg,"atomic size properties",STORED,"Covalent radius by Bragg",pm,,Bragg1920
+14,elements,covalent_radius_cordero,Element,covalent_radius_cordero,"atomic size properties",STORED,"Covalent radius by Cerdero et al.",pm,"In order to have a more homogeneous data for covalent radii taken from ref. :cite:`Cordero2008` the values for 3 different valences for C, also the low and high spin values for Mn, Fe Co, were respectively averaged.",Cordero2008
+15,elements,covalent_radius_pyykko,Element,covalent_radius_pyykko,"atomic size properties",STORED,"Single bond covalent radius by Pyykko et al.",pm,,Pyykko2009
+16,elements,covalent_radius_pyykko_double,Element,covalent_radius_pyykko_double,"atomic size properties",STORED,"Double bond covalent radius by Pyykko et al.",pm,,Pyykko2009a
+17,elements,covalent_radius_pyykko_triple,Element,covalent_radius_pyykko_triple,"atomic size properties",STORED,"Triple bond covalent radius by Pyykko et al.",pm,,Pyykko2005
+18,elements,cpk_color,Element,cpk_color,"display properties",STORED,"Element color in CPK convention as HEX codes.",,,wiki-cpk
+19,elements,density,Element,density,"material properties",STORED,"Density at 295K",g/cm^3,"Density values for solids and liquids are always in units of grams per cubic centimeter and can be assumed to refer to temperatures near room temperature unless otherwise stated. Values for gases are the calculated ideal gas densities at 25°C and 101.325 kPa. 
+
+Original values for gasses are converted from g/L to g/cm\ :sup:`3`.
+
+For elements where several allotropes exist, the density corresponding to the most abundant are reported (for full list refer to :cite:`haynes2014crc`), namely:
+
+   - Antimony (gray)
+   - Berkelium (α form)
+   - Carbon (graphite)
+   - Phosphorus (white)
+   - Selenium (gray)
+   - Sulfur (rhombic)
+   - Tin (white)
+
+For elements where experimental data is not available, theoretical estimates taken from :cite:`enwiki:1039678864` are used, namely for:
+
+   - Astatine
+   - Francium
+   - Einsteinium
+   - Fermium
+   - Mendelevium
+   - Nobelium
+   - Lawrencium
+   - Rutherfordium
+   - Dubnium
+   - Seaborgium
+   - Bohrium
+   - Hassium
+   - Meitnerium
+   - Darmstadtium
+   - Roentgenium
+   - Copernicium
+   - Nihonium
+   - Flerovium
+   - Moscovium
+   - Livermorium
+   - Tennessine
+   - Oganesson
+","haynes2014crc,enwiki:1039678864"
+20,elements,description,Element,description,"descriptive properties",STORED,"Short description of the element",,,
+21,elements,dipole_polarizability,Element,dipole_polarizability,"electric and optical properties",STORED,"Dipole polarizability",bohr^3,,Schwerdtfeger2018
+22,elements,dipole_polarizability_unc,Element,dipole_polarizability_unc,"electric and optical properties",STORED,"Uncertainty of the dipole polarizability",bohr^3,,Schwerdtfeger2018
+23,elements,discoverers,Element,discoverers,"descriptive properties",STORED,"The discoverers of the element",,,
+24,elements,discovery_location,Element,discovery_location,"descriptive properties",STORED,"The location where the element was discovered",,,
+25,elements,discovery_year,Element,discovery_year,"descriptive properties",STORED,"The year the element was discovered",,,
+26,elements,electron_affinity,Element,electron_affinity,"chemical properties",STORED,"Electron affinity",eV,"Electron affinities were taken from :cite:`haynes2014crc` for the elements for which the data was available. For He, Be, N, Ar and Xe affinities were taken from :cite:`Andersen2004` where they were specified for metastable ions and therefore the values are negative.
+   
+   Updates
+
+     - Electron affinity of niobium was taken from :cite:`Luo2016`.
+     - Electron affinity of cobalt was taken from :cite:`Chen2016a`.
+     - Electron affinity of lead was taken from :cite:`Chen2016`.","haynes2014crc,Andersen2004"
+27,elements,electronic_configuration,Element,econf,"chemical properties",STORED,"Ground state electronic configuration",,,
+28,elements,en_allen,Element,electronegativity_allen,"chemical properties",STORED,"Allen's scale of electronegativity",eV,"The values of configurational energies from refs. :cite:`Mann2000a` and :cite:`Mann2000` were taken as reported in eV without converting to Pauling units.","Mann2000a,Mann2000"
+29,elements,en_ghosh,Element,electronegativity_ghosh,"chemical properties",STORED,"Ghosh's scale of electronegativity",1/pm,,Ghosh2005
+30,elements,en_pauling,Element,electronegativity_pauling,"chemical properties",STORED,"Pauling's scale of electronegativity",,,haynes2014crc
+31,elements,evaporation_heat,Element,evaporation_heat,"thermodynamic properties",STORED,"Evaporation heat",kJ/mol,,
+32,elements,fusion_heat,Element,fusion_heat,"thermodynamic properties",STORED,"Fusion heat",kJ/mol,,
+33,elements,gas_basicity,Element,gas_basicity,"chemical properties",STORED,"Gas basicity",kJ/mol,,haynes2014crc
+34,elements,geochemical_class,Element,geochemical_class,classifier,STORED,"Geochemical classification",,,white2013geochemistry
+35,elements,glawe_number,Element,glawe_number,classifier,STORED,"Glawe's number (scale)",,,Glawe2016
+36,elements,goldschmidt_class,Element,goldschmidt_class,classifier,STORED,"Goldschmidt classification",,,"white2013geochemistry,wiki-goldschmidt"
+37,elements,heat_of_formation,Element,heat_of_formation,"thermodynamic properties",STORED,"Heat of formation",kJ/mol,,haynes2014crc
+38,elements,is_monoisotopic,Element,is_monoisotopic,"nuclear properties",STORED,"Is the element monoisotopic",,,
+39,elements,is_radioactive,Element,is_radioactive,"nuclear properties",STORED,"Is the element radioactive",,,
+40,elements,jmol_color,Element,jmol_color,"display properties",STORED,"Element color in Jmol convention as HEX codes.",,,jmol-colors
+41,elements,lattice_constant,Element,lattice_constant,"crystallographic properies",STORED,"Lattice constant",angstrom,,
+42,elements,lattice_structure,Element,lattice_structure,"crystallographic properies",STORED,"Lattice structure code",,,
+43,elements,mendeleev_number,Element,mendeleev_number,classifier,STORED,"Mendeleev's number",,"Mendeleev numbers were sourced from :cite:`Villars2004` but the range was extended to cover the whole periodic table following the prescription in the article of increasing the numbers going from top to bottom in each group and group by group from left to right in the periodic table.","Pettifor1984,Villars2004"
+44,elements,metallic_radius,Element,metallic_radius,"atomic size properties",STORED,"Single-bond metallic radius",pm,,kyleandlaby
+45,elements,metallic_radius_c12,Element,metallic_radius_c12,"atomic size properties",STORED,"Metallic radius with 12 nearest neighbors",pm,,kyleandlaby
+46,elements,molar_heat_capacity,Element,molar_heat_capacity,"thermodynamic properties",STORED,"Molar heat capacity @ 25 C, 1 bar                    ",J/mol/K,,haynes2014crc
+47,elements,molcas_gv_color,Element,molcas_gv_color,"display properties",STORED,"Element color in MOCAS GV convention as HEX codes.",,,molcas-colors
+48,elements,name,Element,name,"descriptive properties",STORED,"Name in English",,,
+49,elements,name_origin,Element,name_origin,"descriptive properties",STORED,"Origin of the name",,,
+50,elements,period,Element,period,"periodic table properties",STORED,"Period in periodic table",,,
+51,elements,pettifor_number,Element,pettifor_number,classifier,STORED,"Pettifor scale",,,Pettifor1984
+52,elements,proton_affinity,Element,proton_affinity,"chemical properties",STORED,"Proton affinity",kJ/mol,,haynes2014crc
+53,elements,sources,Element,sources,"descriptive properties",STORED,"Sources of the element",,,
+54,elements,specific_heat_capacity,Element,specific_heat_capacity,"thermodynamic properties",STORED,"Specific heat capacity @ 25 C, 1 bar                 ",J/g/K,,haynes2014crc
+55,elements,symbol,Element,symbol,"periodic table properties",STORED,"Chemical symbol",,,
+56,elements,thermal_conductivity,Element,thermal_conductivity,"thermodynamic properties",STORED,"Thermal conductivity @25 C",W/m/K,,
+57,elements,uses,Element,uses,"descriptive properties",STORED,"Main applications of the element",,,
+58,elements,vdw_radius,Element,vdw_radius,"atomic size properties",STORED,"Van der Waals radius",pm,,haynes2014crc
+59,elements,vdw_radius_alvarez,Element,vdw_radius_alvarez,"atomic size properties",STORED,"Van der Waals radius according to Alvarez",pm,"The bulk of the radii data was taken from Ref. :cite:`Alvarez2013`, but the radii for noble gasses were updated according to the values in Ref. :cite:`Vogt2014`.","Alvarez2013,Vogt2014"
+60,elements,vdw_radius_batsanov,Element,vdw_radius_batsanov,"atomic size properties",STORED,"Van der Waals radius according to Batsanov",pm,,Batsanov2001
+61,elements,vdw_radius_bondi,Element,vdw_radius_bondi,"atomic size properties",STORED,"Van der Waals radius according to Bondi",pm,,Bondi1964
+62,elements,vdw_radius_dreiding,Element,vdw_radius_dreiding,"atomic size properties",STORED,"Van der Waals radius from the DREIDING FF",pm,,Mayo1990
+63,elements,vdw_radius_mm3,Element,vdw_radius_mm3,"atomic size properties",STORED,"Van der Waals radius from the MM3 FF",pm,,Allinger1994
+64,elements,vdw_radius_rt,Element,vdw_radius_rt,"atomic size properties",STORED,"Van der Waals radius according to Rowland and Taylor",pm,,Rowland1996
+65,elements,vdw_radius_truhlar,Element,vdw_radius_truhlar,"atomic size properties",STORED,"Van der Waals radius according to Truhlar",pm,,Mantina2009
+66,elements,vdw_radius_uff,Element,vdw_radius_uff,"atomic size properties",STORED,"Van der Waals radius from the UFF",pm,,Rappe1992
+67,phasetransitions,boiling_point,Element,boiling_point,"material properties",STORED,"Boiling point",K,,haynes2016crc
+68,phasetransitions,melting_point,Element,melting_point,"material properties",STORED,"Melting point",K,,haynes2016crc
+69,phasetransitions,critical_temperature,Element,critical_temperature,"material properties",STORED,"Critical temperature",K,,haynes2016crc
+70,phasetransitions,critical_pressure,Element,critical_pressure,"material properties",STORED,"Critical pressure",MPa,,haynes2016crc
+71,phasetransitions,triple_point_temperature,Element,triple_point_temperature,"material properties",STORED,"Temperature of the triple point",K,,haynes2016crc
+72,phasetransitions,triple_point_pressure,Element,triple_point_pressure,"material properties",STORED,"Presseure of the triple point",kPa,,haynes2016crc
+73,,,Element,electrons,"basic properties",COMPUTED,"Number of electrons",,,
+74,,,Element,neutrons,"basic properties",COMPUTED,"Number of neutrons",,,
+75,,,Element,protons,"basic properties",COMPUTED,"Number of protons",,,
+76,,,Element,mass_number,"basic properties",COMPUTED,"Mass number of the most abundant isotope",,,
+77,elements,group,Element,group,"periodic table properties",STORED,"Group in the periodic table",,,
+78,elements,series,Element,series,"periodic table properties",STORED,"Series in the periodic table",,,
+79,,,Element,electrophilicity,"chemical properties",COMPUTED,"Parr's electrophilicity index",,,Parr1999
+80,,,Element,inchi,identifiers,COMPUTED,"International Chemical Identifier",,,IUPAC-InChI
+81,,,Element,ionenergy,"chemical properties",STORED,"See IonizationEnergy class documentation",,,ionization_energies
+82,,,Element,isotopes,"nuclear properties",STORED,"See Isotope class documentation",,,
+83,,,Element,ionic_radii,"atomic size properties",STORED,"See IonicRadius class documentation",,,"Shannon1976,Lundberg2016"
+84,,,Element,oxistates,"chemical properties",STORED,"See OxidationState class documentation",,,enwiki:1102394064
+85,,,Element,nist_webbook_url,"external resources",COMPUTED,"URL for the NIST Chemistry WebBook",,,NIST-CH-WB
+86,,,Element,sconst,"chemical properties",STORED,"See ScreeningConstant class documentation",,"   The screening constants were calculated according to the following formula
+
+   .. math::
+   
+      \sigma_{n,l,m} = Z - n\cdot\zeta_{n,l,m}
+   
+   where :math:`n` is the principal quantum number, :math:`Z` is the atomic number,
+   :math:`\sigma_{n,l,m}` is the screening constant, :math:`\zeta_{n,l,m}` is the
+   optimized exponent from :cite:`Clementi1963,Clementi1967`.
+   
+   For elements Nb, Mo, Ru, Rh, Pd and Ag the exponent values corresponding to the
+   ground state electronic configuration were taken (entries with superscript `a`
+   in Table II in :cite:`Clementi1967`).
+   
+   For elements La, Pr, Nd and Pm two exponent were reported for 4f shell denoted
+   4f and 4f' in :cite:`Clementi1967`. The value corresponding to 4f were used
+   since according to the authors these are the dominant ones.","Clementi1963,Clementi1967"
+87,,,Element,hardness,"chemical properties",COMPUTED,"Absolute hardness. Can also be calcualted for ions.",eV,,ParrPearson1983
+88,,,Element,softness,"chemical properties",COMPUTED,"Absolute softness. Can also be calculated for ions.",1/eV,,
+89,,,Element,zeff,"chemical properties",COMPUTED,"Effective nuclear charge",,,
+90,,,Element,electronegativity_allred_rochow,"chemical properties",COMPUTED,"Allred and Rochow's scale of electronegativity",e^2/pm^2,,Allred1958
+91,,,Element,electronegativity_cottrell_sutton,"chemical properties",COMPUTED,"Cottrell and Sutton's scale of electronegativity",e^0.5/pm^0.5,,Cottrell1951
+92,,,Element,electronegativity_gordy,"chemical properties",COMPUTED,"Gordy's scale of electronegativity",e/pm,,Gordy1946
+93,,,Element,electronegativity_li_xue,"chemical properties",COMPUTED,"Li and Xue's scale of electronegativity",1/pm,,"Li2006,Li2009"
+94,,,Element,electronegativity_martynov_batsanov,"chemical properties",COMPUTED,"Martynov and Batsanov's scale of electronegativity",eV^0.5,,Batsanov1982
+95,,,Element,electronegativity_mulliken,"chemical properties",COMPUTED,"Mulliken's scale of electronegativity",eV,,Mulliken1934
+96,,,Element,electronegativity_nagle,"chemical properties",COMPUTED,"Nagle's scale of electronegativity",1/bohr,,Nagle1990
+97,,,Element,electronegativity_sanderson,"chemical properties",COMPUTED,"Sanderson's scale of electronegativity",,,"Sanderson1951,Sanderson1952"
+98,,,Element,nvalence,"basic properties",COMPUTED,"Number of valence electrons",,,
+99,,,Element,oxides,"chemical properties",COMPUTED,"Possible oxides based on oxidation numbers",,,
+100,isotopes,abundance,Isotope,abundance,"isotope properties",STORED,"Relative Abundance",,,Kondev2021
+101,isotopes,abundance_uncertainty,Isotope,abundance_uncertainty,"isotope properties",STORED,"Uncertainty of relative abundance",,,Kondev2021
+102,isotopes,atomic_number,Isotope,atomic_number,"isotope properties",STORED,"Atomic number",,,
+103,isotopes,decay_modes,Isotope,decay_modes,"isotope properties",STORED,"Decay modes with intensities",,,Kondev2021
+104,isotopes,discovery_year,Isotope,discovery_year,"isotope properties",STORED,"Year the isotope was discovered",,,Kondev2021
+105,isotopes,g_factor,Isotope,g_factor,"isotope properties",STORED,"Nuclear g-factor",,,Stone2014
+106,isotopes,g_factor_uncertainty,Isotope,g_factor_uncertainty,"isotope properties",STORED,"Uncertainty of the nuclear g-factor",,,Stone2014
+107,isotopes,half_life,Isotope,half_life,"isotope properties",STORED,"Half life of the isotope",,,Kondev2021
+108,isotopes,half_life_uncertainty,Isotope,half_life_uncertainty,"isotope properties",STORED,"Uncertainty of the half life",,,Kondev2021
+109,isotopes,half_life_unit,Isotope,half_life_unit,"isotope properties",STORED,"Unit in which the half life is given",," 1 year = 365.2422 days = 31 556 926 sec",Kondev2021
+110,isotopes,is_radioactive,Isotope,is_radioactive,"isotope properties",STORED,"Is the isotope radioactive",,,iupac-masses
+111,isotopes,mass,Isotope,mass,"isotope properties",STORED,"Atomic mass",Da,,iupac-masses
+112,isotopes,mass_number,Isotope,mass_number,"isotope properties",STORED,"Mass number of the isotope",,,iupac-masses
+113,isotopes,mass_uncertainty,Isotope,mass_uncertainty,"isotope properties",STORED,"Uncertainty of the atomic mass",Da,,iupac-masses
+114,isotopes,parity,Isotope,parity,"isotope properties",STORED,"Parity, if present, it can be either `+` or `-`",,,Kondev2021
+115,isotopes,quadrupole_moment,Isotope,quadrupole_moment,"isotope properties",STORED,"Nuclear electric quadrupole moment","100 fm^2",,Stone2013
+116,isotopes,quadrupole_moment_uncertainty,Isotope,quadrupole_moment_uncertainty,"isotope properties",STORED,"Nuclear electric quadrupole moment","100 fm^2",,Stone2013
+117,isotopes,spin,Isotope,spin,"isotope properties",STORED,"Nuclear spin quantum number",,,Kondev2021
+118,scattering_factors,energy,ScatteringFactor,energy,"electric and optical properties",STORED,"Energy of the incident photon",eV,"specific data references available at cited data source","atomic_scattering_factors,henke1993xray"
+119,scattering_factors,f1,ScatteringFactor,f1,"electric and optical properties",STORED,"Scattering factor f1",,"specific data references available at cited data source","atomic_scattering_factors,henke1993xray"
+120,scattering_factors,f2,ScatteringFactor,f2,"electric and optical properties",STORED,"Scattering factor f2",,"specific data references available at cited data source","atomic_scattering_factors,henke1993xray"
+121,scattering_factors,atomic_number,ScatteringFactor,atomic_number,"electric and optical properties",STORED,"Atomic number",,,"atomic_scattering_factors,henke1993xray"
+122,ionicradii,atomic_number,IonicRadius,atomic_number,"basic properties",STORED,"Atomic number",,,Shannon1976
+123,ionicradii,charge,IonicRadius,charge,"ion properties",STORED,"Charge of the ion",,,"Shannon1976,Lundberg2016"
+124,ionicradii,econf,IonicRadius,econf,"chemical properties",STORED,"Electronic configuration of the ion",,,"Shannon1976,Lundberg2016"
+125,ionicradii,coordination,IonicRadius,coordination,"atomic size properties",STORED,"Type of coordination",,,"Shannon1976,Lundberg2016"
+126,ionicradii,spin,IonicRadius,spin,"atomic size properties",STORED,"Spin state: HS: high spin, LS: low spin",,,"Shannon1976,Lundberg2016"
+127,ionicradii,crystal_radius,IonicRadius,crystal_radius,"atomic size properties",STORED,"Crystal radius",pm,,"Shannon1976,Lundberg2016"
+128,ionicradii,ionic_radius,IonicRadius,ionic_radius,"atomic size properties",STORED,"Ionic radius",pm,,"Shannon1976,Lundberg2016"
+129,ionicradii,origin,IonicRadius,origin,"descriptive properties",STORED,"Source of the data",,,Shannon1976
+130,ionicradii,most_reliable,IonicRadius,most_reliable,"descriptive properties",STORED,"Most reliable value (see reference)",,,Shannon1976
+134,isotopedecaymodes,isotope_id,IsotopeDecayMode,isotope_id,"isotope properties",STORED,"ID of the isotope, links to the `isotopes` table.",,,Kondev2021
+135,isotopedecaymodes,mode,IsotopeDecayMode,mode,"isotope properties",STORED,"ASCII symbol of the decay mode",,,Kondev2021
+136,isotopedecaymodes,relation,IsotopeDecayMode,relation,"isotope properties",STORED,"Uncertainty of relative abundance",,,Kondev2021
+137,isotopedecaymodes,intensity,IsotopeDecayMode,intensity,"isotope properties",STORED,"Intensity of the decay mode",,,Kondev2021
+138,isotopedecaymodes,is_allowed_not_observed,IsotopeDecayMode,is_allowed_not_observed,"isotope properties",STORED,"If `True` decay mode is energetically allowed, but not experimentally observed",,,Kondev2021
+139,isotopedecaymodes,is_observed_intensity_unknown,IsotopeDecayMode,is_observed_intensity_unknown,"isotope properties",STORED,"If `True` decay mode is observed, but its intensity is not experimentally known",,,Kondev2021
+140,screeningconstants,atomic_number,ScreeningConstant,atomic_number,"basic properties",STORED,"Atomic number",,,"Clementi1963,Clementi1967"
+141,screeningconstants,n,ScreeningConstant,n,"chemical properties",STORED,"Principal quantum number",,,"Clementi1963,Clementi1967"
+142,screeningconstants,s,ScreeningConstant,s,"chemical properties",STORED,"Subshell label, (s, p, d, ...)",,,"Clementi1963,Clementi1967"
+143,screeningconstants,screening,ScreeningConstant,screening,"chemical properties",STORED,"Screening constant",,,"Clementi1963,Clementi1967"
+144,oxidationstates,atomic_number,OxidationState,atomic_number,"basic properties",STORED,"Atomic number",,,enwiki:1102394064
+145,oxidationstates,oxidation_state,OxidationState,oxidation_state,"chemical properties",STORED,"Oxidation state",,,enwiki:1102394064
+146,oxidationstates,category,OxidationState,category,"chemical properties",STORED,"Either `main` or `extended` flag to indicate the type of oxidation state",,,enwiki:1102394064
+147,phasetransitions,atomic_number,PhaseTransition,atomic_number,"basic properties",STORED,"Atomic number",,,
+148,phasetransitions,boiling_point,PhaseTransition,boiling_point,"physical properties",STORED,"Boiling point",K,,haynes2016crc
+149,phasetransitions,melting_point,PhaseTransition,melting_point,"physical properties",STORED,"Melting point",K,,haynes2016crc
+150,phasetransitions,critical_temperature,PhaseTransition,critical_temperature,"physical properties",STORED,"Critical temperature",K,,haynes2016crc
+151,phasetransitions,critical_pressure,PhaseTransition,critical_pressure,"physical properties",STORED,"Critical pressure",MPa,,haynes2016crc
+152,phasetransitions,triple_point_temperature,PhaseTransition,triple_point_temperature,"physical properties",STORED,"Temperature in K of the triple point",K,,haynes2016crc
+153,phasetransitions,triple_point_pressure,PhaseTransition,triple_point_pressure,"physical properties",STORED,"Pressure in kPa of the triple point",kPa,,haynes2016crc
+154,phasetransitions,allotrope,PhaseTransition,allotrope,"basic properties",STORED,"Allotrope name",,,haynes2016crc
+155,ionizationenergies,atomic_number,IonizationEnergy,atomic_number,"basic properties",STORED,"Atomic number of the element",,,
+156,ionizationenergies,ground_configuration,IonizationEnergy,ground_configuration,"electronic structure",STORED,"Ground state electronic configuration",,,
+157,ionizationenergies,ground_level,IonizationEnergy,ground_level,"electronic structure",STORED,"Term symbol and *J* value for the largest component in the ground level",,,
+158,ionizationenergies,ground_shells,IonizationEnergy,ground_shells,"electronic structure",STORED,"Ground state shells",,,
+159,ionizationenergies,ion_charge,IonizationEnergy,ion_charge,charge,STORED,"Charge of the ion (degree of ionization relative to neutral atom)",,,
+160,ionizationenergies,ionization_energy,IonizationEnergy,ionization_energy,energy,STORED,"Ionization energy in eV",eV,,
+161,ionizationenergies,ionized_level,IonizationEnergy,ionized_level,"electronic structure",STORED,"Configuration, term, and *J* value of the next ionized state",,,
+162,ionizationenergies,is_semi_empirical,IonizationEnergy,is_semi_empirical,method,STORED,"Flag for semi-empirical determination of the ionization energy",,,
+163,ionizationenergies,is_theoretical,IonizationEnergy,is_theoretical,method,STORED,"Flag for theoretical determination of the ionization energy",,,
+164,ionizationenergies,isoelectonic_sequence,IonizationEnergy,isoelectonic_sequence,species,STORED,"Isoelectronic sequence of the species",,,
+165,ionizationenergies,references,IonizationEnergy,references,references,STORED,"References related to the ionization energies",,,
+166,ionizationenergies,species_name,IonizationEnergy,species_name,species,STORED,"Name of the species",,,
+167,ionizationenergies,uncertainty,IonizationEnergy,uncertainty,energy,STORED,"Uncertainty in the ionization energy measurement",eV,,
