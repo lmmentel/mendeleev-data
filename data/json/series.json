@@ -1,10 +1,12 @@
-[{"id":1,"name":"Nonmetals","color":"#baa2a6"},
-{"id":2,"name":"Noble gases","color":"#bbbb88"},
-{"id":3,"name":"Alkali metals","color":"#a6cee3"},
-{"id":4,"name":"Alkaline earth metals","color":"#1f78b4"},
-{"id":5,"name":"Metalloids","color":"#33a02c"},
-{"id":6,"name":"Halogens","color":"#fdbf6f"},
-{"id":7,"name":"Poor metals","color":"#b2df8a"},
-{"id":8,"name":"Transition metals","color":"#e08e79"},
-{"id":9,"name":"Lanthanides","color":"#cab2d6"},
-{"id":10,"name":"Actinides","color":"#6a3d9a"}]
+[
+    {"id": 1, "name": "Nonmetals", "color": "#baa2a6"},
+    {"id": 2, "name": "Noble gases", "color": "#bbbb88"},
+    {"id": 3, "name": "Alkali metals", "color": "#a6cee3"},
+    {"id": 4, "name": "Alkaline earth metals", "color": "#1f78b4"},
+    {"id": 5, "name": "Metalloids", "color": "#33a02c"},
+    {"id": 6, "name": "Halogens", "color": "#fdbf6f"},
+    {"id": 7, "name": "Poor metals", "color": "#b2df8a"},
+    {"id": 8, "name": "Transition metals", "color": "#e08e79"},
+    {"id": 9, "name": "Lanthanides", "color": "#cab2d6"},
+    {"id": 10, "name": "Actinides", "color": "#6a3d9a"},
+]
