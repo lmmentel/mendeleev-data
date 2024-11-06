@@ -222,3 +222,6 @@ For elements where experimental data is not available, theoretical estimates tak
 165,ionizationenergies,references,IonizationEnergy,references,references,STORED,"References related to the ionization energies",,,
 166,ionizationenergies,species_name,IonizationEnergy,species_name,species,STORED,"Name of the species",,,
 167,ionizationenergies,uncertainty,IonizationEnergy,uncertainty,energy,STORED,"Uncertainty in the ionization energy measurement",eV,,
+168,elements,en_miedema,Element,en_miedema,"chemical properties",STORED,"Miedema's scale of Electronegativity",V,,"deboer1988cohesion,ZHANG201658"
+169,elements,miedema_molar_volume,Element,miedema_molar_volume,"chemical properties",STORED,"Molar volume parameter from a model by Miedema",cm^3,,"deboer1988cohesion,ZHANG201658"
+170,elements,miedema_electron_density,Element,miedema_electron_density,"chemical properties",STORED,"Electron density parameter from a model by Miedema",,,"deboer1988cohesion,ZHANG201658"

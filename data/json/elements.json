@@ -69,6 +69,9 @@
         "pettifor_number": 103,
         "glawe_number": 103,
         "molar_heat_capacity": 28.835999999999998521,
+        "en_miedema": 5.2000000000000001776,
+        "miedema_molar_volume": 1.6999999999999999555,
+        "miedema_electron_density": 3.3799999999999998934,
     },
     {
         "annotation": "density(@ -270C), ",
@@ -140,6 +143,9 @@
         "pettifor_number": 1,
         "glawe_number": 1,
         "molar_heat_capacity": 20.786000000000001363,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -211,6 +217,9 @@
         "pettifor_number": 12,
         "glawe_number": 12,
         "molar_heat_capacity": 24.859999999999999431,
+        "en_miedema": 2.8500000000000000888,
+        "miedema_molar_volume": 12.999999999999999999,
+        "miedema_electron_density": 0.9399999999999999467,
     },
     {
         "annotation": "",
@@ -282,6 +291,9 @@
         "pettifor_number": 77,
         "glawe_number": 77,
         "molar_heat_capacity": 16.443000000000001393,
+        "en_miedema": 5.0499999999999998223,
+        "miedema_molar_volume": 4.9000000000000003552,
+        "miedema_electron_density": 4.6600000000000001421,
     },
     {
         "annotation": "",
@@ -353,6 +365,9 @@
         "pettifor_number": 86,
         "glawe_number": 86,
         "molar_heat_capacity": 11.086999999999999743,
+        "en_miedema": 5.2999999999999998223,
+        "miedema_molar_volume": 4.7000000000000001776,
+        "miedema_electron_density": 5.3600000000000003197,
     },
     {
         "annotation": "density(graphite), ",
@@ -424,6 +439,9 @@
         "pettifor_number": 95,
         "glawe_number": 87,
         "molar_heat_capacity": 8.5169999999999994599,
+        "en_miedema": 6.2400000000000002131,
+        "miedema_molar_volume": 3.2599999999999997868,
+        "miedema_electron_density": 5.5499999999999998223,
     },
     {
         "annotation": "density(@ -195.8C), ",
@@ -495,6 +513,9 @@
         "pettifor_number": 100,
         "glawe_number": 88,
         "molar_heat_capacity": 29.123999999999998777,
+        "en_miedema": 6.8600000000000003197,
+        "miedema_molar_volume": 4.0999999999999996447,
+        "miedema_electron_density": 4.4900000000000002131,
     },
     {
         "annotation": "density(@ -183C), ",
@@ -566,6 +587,9 @@
         "pettifor_number": 101,
         "glawe_number": 97,
         "molar_heat_capacity": 29.378000000000000113,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "density(@ -189C), evaporation_heat(F-F), fusion_heat(F-F), ",
@@ -637,6 +661,9 @@
         "pettifor_number": 102,
         "glawe_number": 102,
         "molar_heat_capacity": 31.303999999999998493,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "density(@ -246C), ",
@@ -708,6 +735,9 @@
         "pettifor_number": 2,
         "glawe_number": 2,
         "molar_heat_capacity": 20.786000000000001363,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -779,6 +809,9 @@
         "pettifor_number": 11,
         "glawe_number": 11,
         "molar_heat_capacity": 28.230000000000000427,
+        "en_miedema": 2.7000000000000001776,
+        "miedema_molar_volume": 23.780000000000001136,
+        "miedema_electron_density": 0.5500000000000000444,
     },
     {
         "annotation": "",
@@ -850,6 +883,9 @@
         "pettifor_number": 73,
         "glawe_number": 73,
         "molar_heat_capacity": 24.868999999999999773,
+        "en_miedema": 3.4500000000000001776,
+        "miedema_molar_volume": 13.999999999999999999,
+        "miedema_electron_density": 1.6000000000000000888,
     },
     {
         "annotation": "",
@@ -921,6 +957,9 @@
         "pettifor_number": 80,
         "glawe_number": 78,
         "molar_heat_capacity": 24.199999999999999289,
+        "en_miedema": 4.2000000000000001776,
+        "miedema_molar_volume": 10.0,
+        "miedema_electron_density": 2.7000000000000001776,
     },
     {
         "annotation": "",
@@ -992,6 +1031,9 @@
         "pettifor_number": 85,
         "glawe_number": 85,
         "molar_heat_capacity": 19.989999999999998436,
+        "en_miedema": 4.7000000000000001776,
+        "miedema_molar_volume": 8.5999999999999996447,
+        "miedema_electron_density": 3.3799999999999998934,
     },
     {
         "annotation": "density(white phosphorus), ",
@@ -1063,6 +1105,9 @@
         "pettifor_number": 90,
         "glawe_number": 89,
         "molar_heat_capacity": 23.82400000000000162,
+        "en_miedema": 5.5499999999999998223,
+        "miedema_molar_volume": 8.5999999999999996447,
+        "miedema_electron_density": 4.4900000000000002131,
     },
     {
         "annotation": "",
@@ -1134,6 +1179,9 @@
         "pettifor_number": 94,
         "glawe_number": 96,
         "molar_heat_capacity": 22.699999999999999288,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "density(@ -33.6C), evaporation_heat(Cl-Cl), fusion_heat(Cl-Cl), ",
@@ -1205,6 +1253,9 @@
         "pettifor_number": 99,
         "glawe_number": 101,
         "molar_heat_capacity": 33.948999999999998067,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "density(@ -186C), ",
@@ -1276,6 +1327,9 @@
         "pettifor_number": 3,
         "glawe_number": 3,
         "molar_heat_capacity": 20.786000000000001363,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -1347,6 +1401,9 @@
         "pettifor_number": 10,
         "glawe_number": 10,
         "molar_heat_capacity": 29.600000000000001421,
+        "en_miedema": 2.25,
+        "miedema_molar_volume": 45.630000000000002558,
+        "miedema_electron_density": 0.27000000000000001776,
     },
     {
         "annotation": "",
@@ -1418,6 +1475,9 @@
         "pettifor_number": 16,
         "glawe_number": 16,
         "molar_heat_capacity": 25.928999999999998494,
+        "en_miedema": 2.5499999999999998223,
+        "miedema_molar_volume": 26.199999999999999289,
+        "miedema_electron_density": 0.75,
     },
     {
         "annotation": "",
@@ -1489,6 +1549,9 @@
         "pettifor_number": 20,
         "glawe_number": 48,
         "molar_heat_capacity": 25.519999999999999572,
+        "en_miedema": 3.25,
+        "miedema_molar_volume": 15.02999999999999936,
+        "miedema_electron_density": 2.0499999999999998223,
     },
     {
         "annotation": "",
@@ -1560,6 +1623,9 @@
         "pettifor_number": 51,
         "glawe_number": 51,
         "molar_heat_capacity": 25.059999999999998721,
+        "en_miedema": 3.7999999999999998223,
+        "miedema_molar_volume": 10.58000000000000007,
+        "miedema_electron_density": 3.5099999999999997868,
     },
     {
         "annotation": "",
@@ -1631,6 +1697,9 @@
         "pettifor_number": 54,
         "glawe_number": 54,
         "molar_heat_capacity": 24.890000000000000568,
+        "en_miedema": 4.25,
+        "miedema_molar_volume": 8.3599999999999994315,
+        "miedema_electron_density": 4.4100000000000001421,
     },
     {
         "annotation": "",
@@ -1702,6 +1771,9 @@
         "pettifor_number": 57,
         "glawe_number": 55,
         "molar_heat_capacity": 23.35000000000000142,
+        "en_miedema": 4.6500000000000003552,
+        "miedema_molar_volume": 7.2300000000000004263,
+        "miedema_electron_density": 5.1799999999999997157,
     },
     {
         "annotation": "",
@@ -1773,6 +1845,9 @@
         "pettifor_number": 60,
         "glawe_number": 72,
         "molar_heat_capacity": 26.320000000000000283,
+        "en_miedema": 4.4500000000000001776,
+        "miedema_molar_volume": 7.3499999999999996447,
+        "miedema_electron_density": 4.1699999999999999289,
     },
     {
         "annotation": "",
@@ -1844,6 +1919,9 @@
         "pettifor_number": 61,
         "glawe_number": 71,
         "molar_heat_capacity": 25.10000000000000142,
+        "en_miedema": 4.9299999999999997157,
+        "miedema_molar_volume": 7.0899999999999998578,
+        "miedema_electron_density": 5.5499999999999998223,
     },
     {
         "annotation": "",
@@ -1915,6 +1993,9 @@
         "pettifor_number": 64,
         "glawe_number": 70,
         "molar_heat_capacity": 24.809999999999998721,
+        "en_miedema": 5.0999999999999996447,
+        "miedema_molar_volume": 6.7000000000000001776,
+        "miedema_electron_density": 5.3600000000000003197,
     },
     {
         "annotation": "",
@@ -1986,6 +2067,9 @@
         "pettifor_number": 67,
         "glawe_number": 69,
         "molar_heat_capacity": 26.070000000000000284,
+        "en_miedema": 5.2000000000000001776,
+        "miedema_molar_volume": 6.5999999999999996447,
+        "miedema_electron_density": 5.3600000000000003197,
     },
     {
         "annotation": "",
@@ -2057,6 +2141,9 @@
         "pettifor_number": 72,
         "glawe_number": 68,
         "molar_heat_capacity": 24.440000000000001278,
+        "en_miedema": 4.4500000000000001776,
+        "miedema_molar_volume": 7.1200000000000001065,
+        "miedema_electron_density": 3.1800000000000001598,
     },
     {
         "annotation": "",
@@ -2128,6 +2215,9 @@
         "pettifor_number": 76,
         "glawe_number": 74,
         "molar_heat_capacity": 25.390000000000000567,
+        "en_miedema": 4.0999999999999996447,
+        "miedema_molar_volume": 9.1699999999999999289,
+        "miedema_electron_density": 2.2999999999999998223,
     },
     {
         "annotation": "",
@@ -2199,6 +2289,9 @@
         "pettifor_number": 81,
         "glawe_number": 79,
         "molar_heat_capacity": 26.030000000000001136,
+        "en_miedema": 4.0999999999999996447,
+        "miedema_molar_volume": 11.820000000000000284,
+        "miedema_electron_density": 2.25,
     },
     {
         "annotation": "",
@@ -2270,6 +2363,9 @@
         "pettifor_number": 84,
         "glawe_number": 84,
         "molar_heat_capacity": 23.222000000000001308,
+        "en_miedema": 4.5499999999999998223,
+        "miedema_molar_volume": 9.8699999999999992184,
+        "miedema_electron_density": 2.5699999999999998401,
     },
     {
         "annotation": "density(grey arsenic), ",
@@ -2341,6 +2437,9 @@
         "pettifor_number": 89,
         "glawe_number": 90,
         "molar_heat_capacity": 24.640000000000000569,
+        "en_miedema": 4.7999999999999998223,
+        "miedema_molar_volume": 11.849999999999999644,
+        "miedema_electron_density": 3.0,
     },
     {
         "annotation": "",
@@ -2412,6 +2511,9 @@
         "pettifor_number": 93,
         "glawe_number": 95,
         "molar_heat_capacity": 25.362999999999999544,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "evaporation_heat(Br-Br), fusion_heat(Br-Br), ",
@@ -2483,6 +2585,9 @@
         "pettifor_number": 98,
         "glawe_number": 100,
         "molar_heat_capacity": 75.689999999999997724,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "density(@ -153C), ",
@@ -2554,6 +2659,9 @@
         "pettifor_number": 4,
         "glawe_number": 4,
         "molar_heat_capacity": 20.786000000000001363,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -2625,6 +2733,9 @@
         "pettifor_number": 9,
         "glawe_number": 9,
         "molar_heat_capacity": 31.059999999999998721,
+        "en_miedema": 2.1000000000000000888,
+        "miedema_molar_volume": 56.070000000000000282,
+        "miedema_electron_density": 0.22000000000000000111,
     },
     {
         "annotation": "",
@@ -2696,6 +2807,9 @@
         "pettifor_number": 15,
         "glawe_number": 15,
         "molar_heat_capacity": 26.789999999999999148,
+        "en_miedema": 2.3999999999999999111,
+        "miedema_molar_volume": 33.929999999999999715,
+        "miedema_electron_density": 0.58999999999999996891,
     },
     {
         "annotation": "",
@@ -2767,6 +2881,9 @@
         "pettifor_number": 19,
         "glawe_number": 21,
         "molar_heat_capacity": 26.530000000000001137,
+        "en_miedema": 3.2000000000000001776,
+        "miedema_molar_volume": 19.899999999999998578,
+        "miedema_electron_density": 1.7700000000000000177,
     },
     {
         "annotation": "",
@@ -2838,6 +2955,9 @@
         "pettifor_number": 49,
         "glawe_number": 49,
         "molar_heat_capacity": 25.35999999999999943,
+        "en_miedema": 3.4500000000000001776,
+        "miedema_molar_volume": 13.999999999999999999,
+        "miedema_electron_density": 2.7999999999999998223,
     },
     {
         "annotation": "",
@@ -2909,6 +3029,9 @@
         "pettifor_number": 52,
         "glawe_number": 53,
         "molar_heat_capacity": 24.60000000000000142,
+        "en_miedema": 4.0499999999999998223,
+        "miedema_molar_volume": 10.869999999999999217,
+        "miedema_electron_density": 4.4100000000000001421,
     },
     {
         "annotation": "",
@@ -2980,6 +3103,9 @@
         "pettifor_number": 55,
         "glawe_number": 56,
         "molar_heat_capacity": 24.05999999999999872,
+        "en_miedema": 4.6500000000000003552,
+        "miedema_molar_volume": 9.4000000000000003552,
+        "miedema_electron_density": 5.5499999999999998223,
     },
     {
         "annotation": "",
@@ -3051,6 +3177,9 @@
         "pettifor_number": 58,
         "glawe_number": 59,
         "molar_heat_capacity": null,
+        "en_miedema": 5.2999999999999998223,
+        "miedema_molar_volume": 8.6400000000000005684,
+        "miedema_electron_density": 5.9299999999999997157,
     },
     {
         "annotation": "",
@@ -3122,6 +3251,9 @@
         "pettifor_number": 63,
         "glawe_number": 61,
         "molar_heat_capacity": 24.05999999999999872,
+        "en_miedema": 5.4000000000000003552,
+        "miedema_molar_volume": 8.1999999999999992894,
+        "miedema_electron_density": 6.1299999999999998934,
     },
     {
         "annotation": "",
@@ -3193,6 +3325,9 @@
         "pettifor_number": 66,
         "glawe_number": 63,
         "molar_heat_capacity": 24.980000000000000426,
+        "en_miedema": 5.4000000000000003552,
+        "miedema_molar_volume": 8.3000000000000007105,
+        "miedema_electron_density": 5.4500000000000001776,
     },
     {
         "annotation": "",
@@ -3264,6 +3399,9 @@
         "pettifor_number": 69,
         "glawe_number": 65,
         "molar_heat_capacity": 25.980000000000000425,
+        "en_miedema": 5.4500000000000001776,
+        "miedema_molar_volume": 8.9000000000000003552,
+        "miedema_electron_density": 4.6600000000000001421,
     },
     {
         "annotation": "",
@@ -3335,6 +3473,9 @@
         "pettifor_number": 71,
         "glawe_number": 67,
         "molar_heat_capacity": 25.350000000000001421,
+        "en_miedema": 4.3499999999999996447,
+        "miedema_molar_volume": 10.249999999999999999,
+        "miedema_electron_density": 2.5200000000000000177,
     },
     {
         "annotation": "",
@@ -3406,6 +3547,9 @@
         "pettifor_number": 75,
         "glawe_number": 75,
         "molar_heat_capacity": 26.019999999999999574,
+        "en_miedema": 4.0499999999999998223,
+        "miedema_molar_volume": 12.999999999999999999,
+        "miedema_electron_density": 1.90999999999999992,
     },
     {
         "annotation": "",
@@ -3477,6 +3621,9 @@
         "pettifor_number": 79,
         "glawe_number": 80,
         "molar_heat_capacity": 26.739999999999998435,
+        "en_miedema": 3.8999999999999999111,
+        "miedema_molar_volume": 15.75,
+        "miedema_electron_density": 1.6000000000000000888,
     },
     {
         "annotation": "",
@@ -3548,6 +3695,9 @@
         "pettifor_number": 83,
         "glawe_number": 83,
         "molar_heat_capacity": 26.989999999999998436,
+        "en_miedema": 4.1500000000000003552,
+        "miedema_molar_volume": 16.30000000000000071,
+        "miedema_electron_density": 1.8999999999999999111,
     },
     {
         "annotation": "",
@@ -3619,6 +3769,9 @@
         "pettifor_number": 88,
         "glawe_number": 91,
         "molar_heat_capacity": 25.230000000000000425,
+        "en_miedema": 4.4000000000000003552,
+        "miedema_molar_volume": 16.949999999999999289,
+        "miedema_electron_density": 2.0,
     },
     {
         "annotation": "",
@@ -3690,6 +3843,9 @@
         "pettifor_number": 92,
         "glawe_number": 94,
         "molar_heat_capacity": 25.730000000000000427,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "evaporation_heat(I-I), fusion_heat(I-I), ",
@@ -3761,6 +3917,9 @@
         "pettifor_number": 97,
         "glawe_number": 99,
         "molar_heat_capacity": 54.429999999999999714,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "density(@ -109C), ",
@@ -3832,6 +3991,9 @@
         "pettifor_number": 5,
         "glawe_number": 5,
         "molar_heat_capacity": 20.786000000000001363,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -3903,6 +4065,9 @@
         "pettifor_number": 8,
         "glawe_number": 8,
         "molar_heat_capacity": 32.210000000000000852,
+        "en_miedema": 1.9499999999999999555,
+        "miedema_molar_volume": 69.230000000000003978,
+        "miedema_electron_density": 0.17000000000000001221,
     },
     {
         "annotation": "",
@@ -3974,6 +4139,9 @@
         "pettifor_number": 14,
         "glawe_number": 14,
         "molar_heat_capacity": 28.070000000000000285,
+        "en_miedema": 2.3199999999999998401,
+        "miedema_molar_volume": 38.100000000000001421,
+        "miedema_electron_density": 0.53000000000000002664,
     },
     {
         "annotation": "",
@@ -4045,6 +4213,9 @@
         "pettifor_number": 33,
         "glawe_number": 32,
         "molar_heat_capacity": 27.109999999999999432,
+        "en_miedema": 3.1699999999999999289,
+        "miedema_molar_volume": 22.55000000000000071,
+        "miedema_electron_density": 1.6399999999999999023,
     },
     {
         "annotation": "",
@@ -4116,6 +4287,9 @@
         "pettifor_number": 32,
         "glawe_number": 31,
         "molar_heat_capacity": 26.940000000000001278,
+        "en_miedema": 3.1800000000000001598,
+        "miedema_molar_volume": 21.620000000000000994,
+        "miedema_electron_density": 1.6899999999999999467,
     },
     {
         "annotation": "",
@@ -4187,6 +4361,9 @@
         "pettifor_number": 31,
         "glawe_number": 30,
         "molar_heat_capacity": 27.199999999999999289,
+        "en_miedema": 3.1899999999999999467,
+        "miedema_molar_volume": 20.789999999999999146,
+        "miedema_electron_density": 1.7299999999999999822,
     },
     {
         "annotation": "",
@@ -4258,6 +4435,9 @@
         "pettifor_number": 30,
         "glawe_number": 29,
         "molar_heat_capacity": 27.449999999999999289,
+        "en_miedema": 3.1899999999999999467,
+        "miedema_molar_volume": 20.579999999999998294,
+        "miedema_electron_density": 1.7299999999999999822,
     },
     {
         "annotation": "",
@@ -4329,6 +4509,9 @@
         "pettifor_number": 29,
         "glawe_number": 28,
         "molar_heat_capacity": null,
+        "en_miedema": 3.1899999999999999467,
+        "miedema_molar_volume": 20.25,
+        "miedema_electron_density": 1.7700000000000000177,
     },
     {
         "annotation": "",
@@ -4400,6 +4583,9 @@
         "pettifor_number": 28,
         "glawe_number": 27,
         "molar_heat_capacity": 29.539999999999999147,
+        "en_miedema": 3.2000000000000001776,
+        "miedema_molar_volume": 20.010000000000001563,
+        "miedema_electron_density": 1.7700000000000000177,
     },
     {
         "annotation": "",
@@ -4471,6 +4657,9 @@
         "pettifor_number": 18,
         "glawe_number": 17,
         "molar_heat_capacity": 27.660000000000000142,
+        "en_miedema": 3.2000000000000001776,
+        "miedema_molar_volume": 19.969999999999998863,
+        "miedema_electron_density": 1.7700000000000000177,
     },
     {
         "annotation": "",
@@ -4542,6 +4731,9 @@
         "pettifor_number": 27,
         "glawe_number": 26,
         "molar_heat_capacity": 37.030000000000001137,
+        "en_miedema": 3.2000000000000001776,
+        "miedema_molar_volume": 19.899999999999998578,
+        "miedema_electron_density": 1.7700000000000000177,
     },
     {
         "annotation": "",
@@ -4613,6 +4805,9 @@
         "pettifor_number": 26,
         "glawe_number": 25,
         "molar_heat_capacity": 28.910000000000000142,
+        "en_miedema": 3.2099999999999999644,
+        "miedema_molar_volume": 19.320000000000000284,
+        "miedema_electron_density": 1.8200000000000000621,
     },
     {
         "annotation": "",
@@ -4684,6 +4879,9 @@
         "pettifor_number": 25,
         "glawe_number": 24,
         "molar_heat_capacity": 28.160000000000000142,
+        "en_miedema": 3.2099999999999999644,
+        "miedema_molar_volume": 19.0,
+        "miedema_electron_density": 1.8200000000000000621,
     },
     {
         "annotation": "",
@@ -4755,6 +4953,9 @@
         "pettifor_number": 24,
         "glawe_number": 23,
         "molar_heat_capacity": 27.149999999999998578,
+        "en_miedema": 3.2200000000000001953,
+        "miedema_molar_volume": 18.760000000000001563,
+        "miedema_electron_density": 1.8200000000000000621,
     },
     {
         "annotation": "",
@@ -4826,6 +5027,9 @@
         "pettifor_number": 23,
         "glawe_number": 22,
         "molar_heat_capacity": 28.120000000000000994,
+        "en_miedema": 3.2200000000000001953,
+        "miedema_molar_volume": 18.449999999999999289,
+        "miedema_electron_density": 1.8600000000000000976,
     },
     {
         "annotation": "",
@@ -4897,6 +5101,9 @@
         "pettifor_number": 22,
         "glawe_number": 20,
         "molar_heat_capacity": 27.030000000000001137,
+        "en_miedema": 3.2200000000000001953,
+        "miedema_molar_volume": 18.120000000000000994,
+        "miedema_electron_density": 1.8600000000000000976,
     },
     {
         "annotation": "",
@@ -4968,6 +5175,9 @@
         "pettifor_number": 17,
         "glawe_number": 18,
         "molar_heat_capacity": 26.739999999999998435,
+        "en_miedema": 3.2200000000000001953,
+        "miedema_molar_volume": 17.969999999999998862,
+        "miedema_electron_density": 1.8600000000000000976,
     },
     {
         "annotation": "",
@@ -5039,6 +5249,9 @@
         "pettifor_number": 21,
         "glawe_number": 19,
         "molar_heat_capacity": 26.859999999999999431,
+        "en_miedema": 3.2200000000000001953,
+        "miedema_molar_volume": 17.769999999999999574,
+        "miedema_electron_density": 1.90999999999999992,
     },
     {
         "annotation": "",
@@ -5110,6 +5323,9 @@
         "pettifor_number": 50,
         "glawe_number": 50,
         "molar_heat_capacity": 25.730000000000000427,
+        "en_miedema": 3.6000000000000000888,
+        "miedema_molar_volume": 13.449999999999999289,
+        "miedema_electron_density": 3.0499999999999998223,
     },
     {
         "annotation": "",
@@ -5181,6 +5397,9 @@
         "pettifor_number": 53,
         "glawe_number": 52,
         "molar_heat_capacity": 25.35999999999999943,
+        "en_miedema": 4.0499999999999998223,
+        "miedema_molar_volume": 10.810000000000000497,
+        "miedema_electron_density": 4.330000000000000071,
     },
     {
         "annotation": "",
@@ -5252,6 +5471,9 @@
         "pettifor_number": 56,
         "glawe_number": 57,
         "molar_heat_capacity": 24.269999999999999572,
+        "en_miedema": 4.7999999999999998223,
+        "miedema_molar_volume": 9.5500000000000007105,
+        "miedema_electron_density": 5.9299999999999997157,
     },
     {
         "annotation": "",
@@ -5323,6 +5545,9 @@
         "pettifor_number": 59,
         "glawe_number": 58,
         "molar_heat_capacity": 25.480000000000000426,
+        "en_miedema": 5.2000000000000001776,
+        "miedema_molar_volume": 8.8499999999999996447,
+        "miedema_electron_density": 6.330000000000000071,
     },
     {
         "annotation": "",
@@ -5394,6 +5619,9 @@
         "pettifor_number": 62,
         "glawe_number": 60,
         "molar_heat_capacity": 24.699999999999999289,
+        "en_miedema": 5.4000000000000003552,
+        "miedema_molar_volume": 8.4499999999999992894,
+        "miedema_electron_density": 6.330000000000000071,
     },
     {
         "annotation": "",
@@ -5465,6 +5693,9 @@
         "pettifor_number": 65,
         "glawe_number": 62,
         "molar_heat_capacity": 25.10000000000000142,
+        "en_miedema": 5.5499999999999998223,
+        "miedema_molar_volume": 8.5199999999999995736,
+        "miedema_electron_density": 6.1299999999999998934,
     },
     {
         "annotation": "",
@@ -5536,6 +5767,9 @@
         "pettifor_number": 68,
         "glawe_number": 64,
         "molar_heat_capacity": 25.859999999999999432,
+        "en_miedema": 5.6500000000000003552,
+        "miedema_molar_volume": 9.0999999999999996447,
+        "miedema_electron_density": 5.6399999999999996802,
     },
     {
         "annotation": "",
@@ -5607,6 +5841,9 @@
         "pettifor_number": 70,
         "glawe_number": 66,
         "molar_heat_capacity": 25.417999999999999261,
+        "en_miedema": 5.1500000000000003552,
+        "miedema_molar_volume": 10.199999999999999289,
+        "miedema_electron_density": 3.8700000000000001065,
     },
     {
         "annotation": "density(@ +20C), ",
@@ -5678,6 +5915,9 @@
         "pettifor_number": 74,
         "glawe_number": 76,
         "molar_heat_capacity": 27.98300000000000054,
+        "en_miedema": 4.2000000000000001776,
+        "miedema_molar_volume": 14.080000000000000071,
+        "miedema_electron_density": 1.90999999999999992,
     },
     {
         "annotation": "",
@@ -5749,6 +5989,9 @@
         "pettifor_number": 78,
         "glawe_number": 81,
         "molar_heat_capacity": 26.320000000000000283,
+        "en_miedema": 3.8999999999999999111,
+        "miedema_molar_volume": 17.230000000000000425,
+        "miedema_electron_density": 1.3999999999999999111,
     },
     {
         "annotation": "",
@@ -5820,6 +6063,9 @@
         "pettifor_number": 82,
         "glawe_number": 82,
         "molar_heat_capacity": 26.839999999999999858,
+        "en_miedema": 4.0999999999999996447,
+        "miedema_molar_volume": 18.280000000000001136,
+        "miedema_electron_density": 1.5200000000000000177,
     },
     {
         "annotation": "",
@@ -5891,6 +6137,9 @@
         "pettifor_number": 87,
         "glawe_number": 92,
         "molar_heat_capacity": 25.519999999999999572,
+        "en_miedema": 4.1500000000000003552,
+        "miedema_molar_volume": 19.320000000000000284,
+        "miedema_electron_density": 1.5600000000000000532,
     },
     {
         "annotation": "",
@@ -5962,6 +6211,9 @@
         "pettifor_number": 91,
         "glawe_number": 93,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -6033,6 +6285,9 @@
         "pettifor_number": 96,
         "glawe_number": 98,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "density(@ -62C), ",
@@ -6104,6 +6359,9 @@
         "pettifor_number": 6,
         "glawe_number": 6,
         "molar_heat_capacity": 20.786000000000001363,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -6175,6 +6433,9 @@
         "pettifor_number": 7,
         "glawe_number": 7,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -6246,6 +6507,9 @@
         "pettifor_number": 13,
         "glawe_number": 13,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -6317,6 +6581,9 @@
         "pettifor_number": 48,
         "glawe_number": 33,
         "molar_heat_capacity": 27.199999999999999289,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -6388,6 +6655,9 @@
         "pettifor_number": 47,
         "glawe_number": 34,
         "molar_heat_capacity": 27.320000000000000284,
+        "en_miedema": 3.2999999999999998223,
+        "miedema_molar_volume": 19.80000000000000071,
+        "miedema_electron_density": 2.1000000000000000888,
     },
     {
         "annotation": "",
@@ -6459,6 +6729,9 @@
         "pettifor_number": 46,
         "glawe_number": 35,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -6530,6 +6803,9 @@
         "pettifor_number": 45,
         "glawe_number": 36,
         "molar_heat_capacity": 27.664999999999999146,
+        "en_miedema": 3.8999999999999999111,
+        "miedema_molar_volume": 13.150000000000000355,
+        "miedema_electron_density": 3.4399999999999999467,
     },
     {
         "annotation": "",
@@ -6601,6 +6877,9 @@
         "pettifor_number": 44,
         "glawe_number": 37,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -6672,6 +6951,9 @@
         "pettifor_number": 43,
         "glawe_number": 38,
         "molar_heat_capacity": null,
+        "en_miedema": 3.7999999999999998223,
+        "miedema_molar_volume": 12.060000000000000497,
+        "miedema_electron_density": 2.9900000000000002131,
     },
     {
         "annotation": "",
@@ -6743,6 +7025,9 @@
         "pettifor_number": 42,
         "glawe_number": 39,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -6814,6 +7099,9 @@
         "pettifor_number": 41,
         "glawe_number": 40,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -6885,6 +7173,9 @@
         "pettifor_number": 40,
         "glawe_number": 41,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -6956,6 +7247,9 @@
         "pettifor_number": 39,
         "glawe_number": 42,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7027,6 +7321,9 @@
         "pettifor_number": 38,
         "glawe_number": 43,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7098,6 +7395,9 @@
         "pettifor_number": 37,
         "glawe_number": 44,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7169,6 +7469,9 @@
         "pettifor_number": 36,
         "glawe_number": 45,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7240,6 +7543,9 @@
         "pettifor_number": 35,
         "glawe_number": 46,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7311,6 +7617,9 @@
         "pettifor_number": 34,
         "glawe_number": 47,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7382,6 +7691,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7453,6 +7765,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7524,6 +7839,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7595,6 +7913,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7666,6 +7987,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7737,6 +8061,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7808,6 +8135,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7879,6 +8209,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -7950,6 +8283,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -8021,6 +8357,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -8092,6 +8431,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -8163,6 +8505,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -8234,6 +8579,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -8305,6 +8653,9 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
     {
         "annotation": "",
@@ -8376,5 +8727,8 @@
         "pettifor_number": null,
         "glawe_number": null,
         "molar_heat_capacity": null,
+        "en_miedema": null,
+        "miedema_molar_volume": null,
+        "miedema_electron_density": null,
     },
 ]
