@@ -9,6 +9,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 2,
@@ -20,6 +22,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 3,
@@ -31,6 +35,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 4,
@@ -42,6 +48,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": "gray",
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 5,
@@ -53,6 +61,8 @@
         "triple_point_temperature": 83.805799999999976536,
         "triple_point_pressure": 68.890000000000000566,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 6,
@@ -64,6 +74,8 @@
         "triple_point_temperature": 1090.1500000000000909,
         "triple_point_pressure": 3700.0,
         "allotrope": "gray",
+        "is_sublimation_point": 1,
+        "is_transition": null,
     },
     {
         "id": 7,
@@ -75,6 +87,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 8,
@@ -86,6 +100,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 9,
@@ -97,6 +113,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": "β form",
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 10,
@@ -108,6 +126,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 11,
@@ -119,6 +139,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 12,
@@ -130,6 +152,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 13,
@@ -141,6 +165,8 @@
         "triple_point_temperature": 265.89999999999997725,
         "triple_point_pressure": 5.8789999999999995594,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 14,
@@ -152,6 +178,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 15,
@@ -163,6 +191,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 16,
@@ -174,28 +204,21 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 17,
         "atomic_number": 6,
         "boiling_point": 4098.1499999999996364,
-        "melting_point": 4762.1499999999996363,
+        "melting_point": null,
         "critical_temperature": null,
         "critical_pressure": null,
         "triple_point_temperature": 4762.1499999999996363,
         "triple_point_pressure": 10299.999999999999999,
         "allotrope": "graphite",
-    },
-    {
-        "id": 18,
-        "atomic_number": 6,
-        "boiling_point": null,
-        "melting_point": 4713.1499999999996361,
-        "critical_temperature": null,
-        "critical_pressure": null,
-        "triple_point_temperature": null,
-        "triple_point_pressure": null,
-        "allotrope": "diamond",
+        "is_sublimation_point": 1,
+        "is_transition": null,
     },
     {
         "id": 19,
@@ -207,6 +230,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 20,
@@ -218,6 +243,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 21,
@@ -229,6 +256,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 22,
@@ -240,6 +269,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 23,
@@ -251,6 +282,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 24,
@@ -262,6 +295,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 25,
@@ -273,6 +308,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 26,
@@ -284,6 +321,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 27,
@@ -295,6 +334,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 28,
@@ -306,6 +347,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 29,
@@ -317,6 +360,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 30,
@@ -328,6 +373,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 31,
@@ -339,6 +386,8 @@
         "triple_point_temperature": 53.479999999999989768,
         "triple_point_pressure": 90.0,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 32,
@@ -350,6 +399,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 33,
@@ -361,6 +412,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 34,
@@ -372,6 +425,8 @@
         "triple_point_temperature": 302.91659999999995989,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 35,
@@ -383,6 +438,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 36,
@@ -394,6 +451,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 37,
@@ -405,6 +464,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 38,
@@ -416,6 +477,8 @@
         "triple_point_temperature": 2.1769999999999640749,
         "triple_point_pressure": 5.0430000000000001492,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 39,
@@ -427,6 +490,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 40,
@@ -438,6 +503,8 @@
         "triple_point_temperature": 13.803299999999978809,
         "triple_point_pressure": 7.0410000000000003694,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 41,
@@ -449,6 +516,8 @@
         "triple_point_temperature": 429.7436000000000149,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 42,
@@ -460,6 +529,8 @@
         "triple_point_temperature": 386.75000000000000001,
         "triple_point_pressure": 12.109999999999999431,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 43,
@@ -471,6 +542,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 44,
@@ -482,6 +555,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 45,
@@ -493,6 +568,8 @@
         "triple_point_temperature": 115.77499999999997726,
         "triple_point_pressure": 73.530000000000001136,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 46,
@@ -504,6 +581,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 47,
@@ -515,6 +594,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 48,
@@ -526,6 +607,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 49,
@@ -537,6 +620,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 50,
@@ -548,6 +633,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 51,
@@ -559,6 +646,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 52,
@@ -570,6 +659,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 53,
@@ -581,6 +672,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 54,
@@ -592,6 +685,8 @@
         "triple_point_temperature": 234.3155999999999608,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 55,
@@ -603,6 +698,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 56,
@@ -614,6 +711,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 57,
@@ -625,6 +724,8 @@
         "triple_point_temperature": 24.556099999999986493,
         "triple_point_pressure": 43.369999999999997442,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 58,
@@ -636,6 +737,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 59,
@@ -647,6 +750,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 60,
@@ -658,6 +763,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 61,
@@ -669,6 +776,8 @@
         "triple_point_temperature": 63.150999999999982035,
         "triple_point_pressure": 12.519999999999999573,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 62,
@@ -680,6 +789,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 63,
@@ -691,6 +802,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 64,
@@ -702,6 +815,8 @@
         "triple_point_temperature": 54.358399999999988949,
         "triple_point_pressure": 0.14630000000000001336,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 65,
@@ -713,6 +828,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 66,
@@ -724,17 +841,21 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": "white",
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 67,
         "atomic_number": 15,
-        "boiling_point": null,
+        "boiling_point": 704.14999999999997727,
         "melting_point": 852.35000000000002273,
         "critical_temperature": 994.14999999999997728,
         "critical_pressure": null,
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": "red",
+        "is_sublimation_point": 1,
+        "is_transition": null,
     },
     {
         "id": 68,
@@ -746,6 +867,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 69,
@@ -757,6 +880,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 70,
@@ -768,6 +893,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 71,
@@ -779,6 +906,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 72,
@@ -790,6 +919,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 73,
@@ -801,6 +932,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 74,
@@ -812,6 +945,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 75,
@@ -823,6 +958,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 76,
@@ -834,6 +971,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 77,
@@ -845,6 +984,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 78,
@@ -856,6 +997,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 79,
@@ -867,6 +1010,8 @@
         "triple_point_temperature": 312.40999999999996817,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 80,
@@ -878,6 +1023,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 81,
@@ -889,6 +1036,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 82,
@@ -900,6 +1049,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 83,
@@ -911,6 +1062,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": "vitreous",
+        "is_sublimation_point": null,
+        "is_transition": 1,
     },
     {
         "id": 84,
@@ -922,6 +1075,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": "gray",
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 85,
@@ -933,6 +1088,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 86,
@@ -944,6 +1101,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 87,
@@ -955,6 +1114,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 88,
@@ -966,6 +1127,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 89,
@@ -977,6 +1140,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": "rhombic",
+        "is_sublimation_point": null,
+        "is_transition": 1,
     },
     {
         "id": 90,
@@ -988,6 +1153,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": "monoclinic",
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 91,
@@ -999,6 +1166,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 92,
@@ -1010,6 +1179,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 93,
@@ -1021,6 +1192,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 94,
@@ -1032,6 +1205,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 95,
@@ -1043,6 +1218,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 96,
@@ -1054,6 +1231,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 97,
@@ -1065,6 +1244,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 98,
@@ -1076,6 +1257,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": "gray",
+        "is_sublimation_point": null,
+        "is_transition": 1,
     },
     {
         "id": 99,
@@ -1087,6 +1270,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": "white",
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 100,
@@ -1098,6 +1283,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 101,
@@ -1109,6 +1296,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 102,
@@ -1120,6 +1309,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 103,
@@ -1131,6 +1322,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 104,
@@ -1142,6 +1335,8 @@
         "triple_point_temperature": 161.40499999999997271,
         "triple_point_pressure": 81.76999999999999602,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 105,
@@ -1153,6 +1348,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 106,
@@ -1164,6 +1361,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 107,
@@ -1175,6 +1374,8 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
     {
         "id": 108,
@@ -1186,5 +1387,7 @@
         "triple_point_temperature": null,
         "triple_point_pressure": null,
         "allotrope": null,
+        "is_sublimation_point": null,
+        "is_transition": null,
     },
 ]

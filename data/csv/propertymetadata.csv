@@ -72,8 +72,16 @@ For elements where experimental data is not available, theoretical estimates tak
 28,elements,en_allen,Element,electronegativity_allen,"chemical properties",STORED,"Allen's scale of electronegativity",eV,"The values of configurational energies from refs. :cite:`Mann2000a` and :cite:`Mann2000` were taken as reported in eV without converting to Pauling units.","Mann2000a,Mann2000"
 29,elements,en_ghosh,Element,electronegativity_ghosh,"chemical properties",STORED,"Ghosh's scale of electronegativity",1/pm,,Ghosh2005
 30,elements,en_pauling,Element,electronegativity_pauling,"chemical properties",STORED,"Pauling's scale of electronegativity",,,haynes2014crc
-31,elements,evaporation_heat,Element,evaporation_heat,"thermodynamic properties",STORED,"Evaporation heat",kJ/mol,,
-32,elements,fusion_heat,Element,fusion_heat,"thermodynamic properties",STORED,"Fusion heat",kJ/mol,,
+31,elements,evaporation_heat,Element,evaporation_heat,"thermodynamic properties",STORED,"Evaporation heat",kJ/mol,"- H: evaporation heat of H-H
+- F: evaporation heat of F-F
+- Cl: evaporation heat of Cl-Cl
+- Br: evaporation heat of Br-Br
+- I: evaporation heat of I-I",
+32,elements,fusion_heat,Element,fusion_heat,"thermodynamic properties",STORED,"Fusion heat",kJ/mol,"- H: fusion heat of H-H
+- F: fusion heat of F-F
+- Cl: fusion heat of Cl-Cl
+- Br: fusion heat of Br-Br
+- I: fusion heat of I-I",
 33,elements,gas_basicity,Element,gas_basicity,"chemical properties",STORED,"Gas basicity",kJ/mol,,haynes2014crc
 34,elements,geochemical_class,Element,geochemical_class,classifier,STORED,"Geochemical classification",,,white2013geochemistry
 35,elements,glawe_number,Element,glawe_number,classifier,STORED,"Glawe's number (scale)",,,Glawe2016
@@ -109,7 +117,7 @@ For elements where experimental data is not available, theoretical estimates tak
 65,elements,vdw_radius_truhlar,Element,vdw_radius_truhlar,"atomic size properties",STORED,"Van der Waals radius according to Truhlar",pm,,Mantina2009
 66,elements,vdw_radius_uff,Element,vdw_radius_uff,"atomic size properties",STORED,"Van der Waals radius from the UFF",pm,,Rappe1992
 67,phasetransitions,boiling_point,Element,boiling_point,"material properties",STORED,"Boiling point",K,,haynes2016crc
-68,phasetransitions,melting_point,Element,melting_point,"material properties",STORED,"Melting point",K,,haynes2016crc
+68,phasetransitions,melting_point,Element,melting_point,"material properties",STORED,"Melting point at 101.325 kPa pressure",K,,haynes2016crc
 69,phasetransitions,critical_temperature,Element,critical_temperature,"material properties",STORED,"Critical temperature",K,,haynes2016crc
 70,phasetransitions,critical_pressure,Element,critical_pressure,"material properties",STORED,"Critical pressure",MPa,,haynes2016crc
 71,phasetransitions,triple_point_temperature,Element,triple_point_temperature,"material properties",STORED,"Temperature of the triple point",K,,haynes2016crc
@@ -203,7 +211,7 @@ For elements where experimental data is not available, theoretical estimates tak
 146,oxidationstates,category,OxidationState,category,"chemical properties",STORED,"Either `main` or `extended` flag to indicate the type of oxidation state",,,enwiki:1102394064
 147,phasetransitions,atomic_number,PhaseTransition,atomic_number,"basic properties",STORED,"Atomic number",,,
 148,phasetransitions,boiling_point,PhaseTransition,boiling_point,"physical properties",STORED,"Boiling point",K,,haynes2016crc
-149,phasetransitions,melting_point,PhaseTransition,melting_point,"physical properties",STORED,"Melting point",K,,haynes2016crc
+149,phasetransitions,melting_point,PhaseTransition,melting_point,"physical properties",STORED,"Melting point at 101.325 kPa pressure",K,"Melting points for carbon from the original source are not included since they are not at standard pressure",haynes2016crc
 150,phasetransitions,critical_temperature,PhaseTransition,critical_temperature,"physical properties",STORED,"Critical temperature",K,,haynes2016crc
 151,phasetransitions,critical_pressure,PhaseTransition,critical_pressure,"physical properties",STORED,"Critical pressure",MPa,,haynes2016crc
 152,phasetransitions,triple_point_temperature,PhaseTransition,triple_point_temperature,"physical properties",STORED,"Temperature in K of the triple point",K,,haynes2016crc
@@ -225,3 +233,20 @@ For elements where experimental data is not available, theoretical estimates tak
 168,elements,en_miedema,Element,en_miedema,"chemical properties",STORED,"Miedema's scale of Electronegativity",V,,"deboer1988cohesion,ZHANG201658"
 169,elements,miedema_molar_volume,Element,miedema_molar_volume,"chemical properties",STORED,"Molar volume parameter from a model by Miedema",cm^3,,"deboer1988cohesion,ZHANG201658"
 170,elements,miedema_electron_density,Element,miedema_electron_density,"chemical properties",STORED,"Electron density parameter from a model by Miedema",,,"deboer1988cohesion,ZHANG201658"
+171,elements,en_robles_bartolotti,Element,en_robles_bartolotti,"chemical properties",STORED,"Robles-Bartolotti's scale of electronegativity",eV,,RoblesBartolotti1984
+172,elements,en_gunnarsson_lundqvist,Element,en_gunnarsson_lundqvist,"chemical properties",STORED,"Gunnarsson-Lundqvist's scale of electronegativity",eV,,"GunnarssonLundqvist1979,RoblesBartolotti1984"
+173,elements,political_stability_of_top_producer,Element,political_stability_of_top_producer,"supply risk properties",STORED,"A percentile rank for the political stability of the top producing country, derived from World Bank governance indicators.",,,RSC_periodic_table
+174,elements,political_stability_of_top_reserve_holder,Element,political_stability_of_top_reserve_holder,"supply risk properties",STORED,"A percentile rank for the political stability of the country with the largest reserves, derived from World Bank governance indicators.",,,RSC_periodic_table
+175,elements,production_concentration,Element,production_concentration,"supply risk properties",STORED,"The percentage of an element produced in the top producing country. The higher the value, the larger risk there is to supply.",%,,RSC_periodic_table
+176,elements,recycling_rate,Element,recycling_rate,"supply risk properties",STORED,"The percentage of a commodity which is recycled. A higher recycling rate may reduce risk to supply.",%,,RSC_periodic_table
+177,elements,relative_supply_risk,Element,relative_supply_risk,"supply risk properties",STORED,"An integrated supply risk index from 1 (very low risk) to 10 (very high risk). This is calculated by combining the scores for crustal abundance, reserve distribution, production concentration, substitutability, recycling rate and political stability scores.",,,RSC_periodic_table
+178,elements,reserve_distribution,Element,reserve_distribution,"supply risk properties",STORED,"The percentage of the world reserves located in the country with the largest reserves. The higher the value, the larger risk there is to supply.",%,,RSC_periodic_table
+179,elements,substitutability,Element,substitutability,"supply risk properties",STORED,"The availability of suitable substitutes for a given commodity.
+High = substitution not possible or very difficult.
+Medium = substitution is possible but there may be an economic and/or performance impact
+Low = substitution is possible with little or no economic and/or performance impact",,,RSC_periodic_table
+180,elements,top_3_producers,Element,top_3_producers,"supply risk properties",STORED,"Top 3 countries or regions that produce the element.",,,RSC_periodic_table
+181,elements,top_3_reserve_holders,Element,top_3_reserve_holders,"supply risk properties",STORED,"Top 3 countries or regions that hold reserves the element.",,,RSC_periodic_table
+182,phasetransitions,is_sublimation_point,PhaseTransition,is_sublimation_point,"annotation flag",STORED,"Indicates that boiling_point marks a sublimation point, where the vapor pressure of the solid phase reaches
+101 325 kPa (1 atm)",,,haynes2016crc
+183,phasetransitions,is_transition,PhaseTransition,is_transition,"annotation flag",STORED,"Indicates that melting_point marks the temperature of the transition to the crystalline form immediately below that entry",,,haynes2016crc

@@ -411,7 +411,11 @@ For elements where experimental data is not available, theoretical estimates tak
 <TD>STORED</TD>
 <TD>Evaporation heat</TD>
 <TD>kJ/mol</TD>
-<TD></TD>
+<TD>- H: evaporation heat of H-H
+- F: evaporation heat of F-F
+- Cl: evaporation heat of Cl-Cl
+- Br: evaporation heat of Br-Br
+- I: evaporation heat of I-I</TD>
 <TD></TD>
 </TR>
 <TR><TD>32</TD>
@@ -423,7 +427,11 @@ For elements where experimental data is not available, theoretical estimates tak
 <TD>STORED</TD>
 <TD>Fusion heat</TD>
 <TD>kJ/mol</TD>
-<TD></TD>
+<TD>- H: fusion heat of H-H
+- F: fusion heat of F-F
+- Cl: fusion heat of Cl-Cl
+- Br: fusion heat of Br-Br
+- I: fusion heat of I-I</TD>
 <TD></TD>
 </TR>
 <TR><TD>33</TD>
@@ -853,7 +861,7 @@ For elements where experimental data is not available, theoretical estimates tak
 <TD>melting_point</TD>
 <TD>material properties</TD>
 <TD>STORED</TD>
-<TD>Melting point</TD>
+<TD>Melting point at 101.325 kPa pressure</TD>
 <TD>K</TD>
 <TD></TD>
 <TD>haynes2016crc</TD>
@@ -1805,9 +1813,9 @@ For elements where experimental data is not available, theoretical estimates tak
 <TD>melting_point</TD>
 <TD>physical properties</TD>
 <TD>STORED</TD>
-<TD>Melting point</TD>
+<TD>Melting point at 101.325 kPa pressure</TD>
 <TD>K</TD>
-<TD></TD>
+<TD>Melting points for carbon from the original source are not included since they are not at standard pressure</TD>
 <TD>haynes2016crc</TD>
 </TR>
 <TR><TD>150</TD>
@@ -2061,4 +2069,164 @@ For elements where experimental data is not available, theoretical estimates tak
 <TD></TD>
 <TD></TD>
 <TD>deboer1988cohesion,ZHANG201658</TD>
+</TR>
+<TR><TD>171</TD>
+<TD>elements</TD>
+<TD>en_robles_bartolotti</TD>
+<TD>Element</TD>
+<TD>en_robles_bartolotti</TD>
+<TD>chemical properties</TD>
+<TD>STORED</TD>
+<TD>Robles-Bartolotti&#39;s scale of electronegativity</TD>
+<TD>eV</TD>
+<TD></TD>
+<TD>RoblesBartolotti1984</TD>
+</TR>
+<TR><TD>172</TD>
+<TD>elements</TD>
+<TD>en_gunnarsson_lundqvist</TD>
+<TD>Element</TD>
+<TD>en_gunnarsson_lundqvist</TD>
+<TD>chemical properties</TD>
+<TD>STORED</TD>
+<TD>Gunnarsson-Lundqvist&#39;s scale of electronegativity</TD>
+<TD>eV</TD>
+<TD></TD>
+<TD>GunnarssonLundqvist1979,RoblesBartolotti1984</TD>
+</TR>
+<TR><TD>173</TD>
+<TD>elements</TD>
+<TD>political_stability_of_top_producer</TD>
+<TD>Element</TD>
+<TD>political_stability_of_top_producer</TD>
+<TD>supply risk properties</TD>
+<TD>STORED</TD>
+<TD>A percentile rank for the political stability of the top producing country, derived from World Bank governance indicators.</TD>
+<TD></TD>
+<TD></TD>
+<TD>RSC_periodic_table</TD>
+</TR>
+<TR><TD>174</TD>
+<TD>elements</TD>
+<TD>political_stability_of_top_reserve_holder</TD>
+<TD>Element</TD>
+<TD>political_stability_of_top_reserve_holder</TD>
+<TD>supply risk properties</TD>
+<TD>STORED</TD>
+<TD>A percentile rank for the political stability of the country with the largest reserves, derived from World Bank governance indicators.</TD>
+<TD></TD>
+<TD></TD>
+<TD>RSC_periodic_table</TD>
+</TR>
+<TR><TD>175</TD>
+<TD>elements</TD>
+<TD>production_concentration</TD>
+<TD>Element</TD>
+<TD>production_concentration</TD>
+<TD>supply risk properties</TD>
+<TD>STORED</TD>
+<TD>The percentage of an element produced in the top producing country. The higher the value, the larger risk there is to supply.</TD>
+<TD>%</TD>
+<TD></TD>
+<TD>RSC_periodic_table</TD>
+</TR>
+<TR><TD>176</TD>
+<TD>elements</TD>
+<TD>recycling_rate</TD>
+<TD>Element</TD>
+<TD>recycling_rate</TD>
+<TD>supply risk properties</TD>
+<TD>STORED</TD>
+<TD>The percentage of a commodity which is recycled. A higher recycling rate may reduce risk to supply.</TD>
+<TD>%</TD>
+<TD></TD>
+<TD>RSC_periodic_table</TD>
+</TR>
+<TR><TD>177</TD>
+<TD>elements</TD>
+<TD>relative_supply_risk</TD>
+<TD>Element</TD>
+<TD>relative_supply_risk</TD>
+<TD>supply risk properties</TD>
+<TD>STORED</TD>
+<TD>An integrated supply risk index from 1 (very low risk) to 10 (very high risk). This is calculated by combining the scores for crustal abundance, reserve distribution, production concentration, substitutability, recycling rate and political stability scores.</TD>
+<TD></TD>
+<TD></TD>
+<TD>RSC_periodic_table</TD>
+</TR>
+<TR><TD>178</TD>
+<TD>elements</TD>
+<TD>reserve_distribution</TD>
+<TD>Element</TD>
+<TD>reserve_distribution</TD>
+<TD>supply risk properties</TD>
+<TD>STORED</TD>
+<TD>The percentage of the world reserves located in the country with the largest reserves. The higher the value, the larger risk there is to supply.</TD>
+<TD>%</TD>
+<TD></TD>
+<TD>RSC_periodic_table</TD>
+</TR>
+<TR><TD>179</TD>
+<TD>elements</TD>
+<TD>substitutability</TD>
+<TD>Element</TD>
+<TD>substitutability</TD>
+<TD>supply risk properties</TD>
+<TD>STORED</TD>
+<TD>The availability of suitable substitutes for a given commodity.
+High = substitution not possible or very difficult.
+Medium = substitution is possible but there may be an economic and/or performance impact
+Low = substitution is possible with little or no economic and/or performance impact</TD>
+<TD></TD>
+<TD></TD>
+<TD>RSC_periodic_table</TD>
+</TR>
+<TR><TD>180</TD>
+<TD>elements</TD>
+<TD>top_3_producers</TD>
+<TD>Element</TD>
+<TD>top_3_producers</TD>
+<TD>supply risk properties</TD>
+<TD>STORED</TD>
+<TD>Top 3 countries or regions that produce the element.</TD>
+<TD></TD>
+<TD></TD>
+<TD>RSC_periodic_table</TD>
+</TR>
+<TR><TD>181</TD>
+<TD>elements</TD>
+<TD>top_3_reserve_holders</TD>
+<TD>Element</TD>
+<TD>top_3_reserve_holders</TD>
+<TD>supply risk properties</TD>
+<TD>STORED</TD>
+<TD>Top 3 countries or regions that hold reserves the element.</TD>
+<TD></TD>
+<TD></TD>
+<TD>RSC_periodic_table</TD>
+</TR>
+<TR><TD>182</TD>
+<TD>phasetransitions</TD>
+<TD>is_sublimation_point</TD>
+<TD>PhaseTransition</TD>
+<TD>is_sublimation_point</TD>
+<TD>annotation flag</TD>
+<TD>STORED</TD>
+<TD>Indicates that boiling_point marks a sublimation point, where the vapor pressure of the solid phase reaches
+101 325 kPa (1 atm)</TD>
+<TD></TD>
+<TD></TD>
+<TD>haynes2016crc</TD>
+</TR>
+<TR><TD>183</TD>
+<TD>phasetransitions</TD>
+<TD>is_transition</TD>
+<TD>PhaseTransition</TD>
+<TD>is_transition</TD>
+<TD>annotation flag</TD>
+<TD>STORED</TD>
+<TD>Indicates that melting_point marks the temperature of the transition to the crystalline form immediately below that entry</TD>
+<TD></TD>
+<TD></TD>
+<TD>haynes2016crc</TD>
 </TR>
