@@ -45,6 +45,8 @@ For more information about formats please look into [sqlite3 docs](https://www.s
 
 ## Overview
 
+You can view the complete [changelog](https://github.com/lmmentel/mendeleev/blob/master/CHANGES.rst) in the mendeleev repo or view it in the [docs](https://mendeleev.readthedocs.io/en/stable/changes_link.html).
+
 To restore mendeleev's sqlite3 database run:
 
 ```bash
