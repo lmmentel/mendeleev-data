@@ -75,7 +75,7 @@
         "id": 6,
         "table_name": "elements",
         "unit": "cm^3/mol",
-        "value_origin": "COMPUTED"
+        "value_origin": "STORED"
     },
     {
         "annotations": "Atomic weights and their uncertainties were retrieved mainly from ref. :cite:`iupac-weights`. For elements whose values were given as ranges the *conventional atomic weights* from Table 3 in ref. :cite:`Meija2016` were taken. For radioactive elements the standard approach was adopted where the weight is taken as the mass number of the most stable isotope. The data was obtained from `CIAAW page on radioactive elements <http://www.ciaaw.org/radioactive-elements.htm>`_. In cases where two isotopes were specified the one with the smaller standard deviation was chosen. In case of Tc and Pm relative weights of their isotopes were used, for Tc isotope 98, and for Pm isotope 145 were taken from `CIAAW <http://www.ciaaw.org/atomic-masses.htm>`_.",
@@ -234,7 +234,7 @@
         "value_origin": "STORED"
     },
     {
-        "annotations": "Density values for solids and liquids are always in units of grams per cubic centimeter and can be assumed to refer to temperatures near room temperature unless otherwise stated. Values for gases are the calculated ideal gas densities at 25\u00b0C and 101.325 kPa. \n\nOriginal values for gasses are converted from g/L to g/cm\\ :sup:`3`.\n\nFor elements where several allotropes exist, the density corresponding to the most abundant are reported (for full list refer to :cite:`haynes2014crc`), namely:\n\n- Antimony (gray)\n- Berkelium (\u03b1 form)\n- Carbon (graphite)\n- Phosphorus (white)\n- Selenium (gray)\n- Sulfur (rhombic)\n- Tin (white)\n\nFor elements where experimental data is not available, theoretical estimates taken from :cite:`enwiki:1039678864` are used, namely for:\n\n- Astatine\n- Francium\n- Einsteinium\n- Fermium\n- Mendelevium\n- Nobelium\n- Lawrencium\n- Rutherfordium\n- Dubnium\n- Seaborgium\n- Bohrium\n- Hassium\n- Meitnerium\n- Darmstadtium\n- Roentgenium\n- Copernicium\n- Nihonium\n- Flerovium\n- Moscovium\n- Livermorium\n- Tennessine\n- Oganesson\n",
+        "annotations": "Density values for solids and liquids are always in units of grams per cubic centimeter and can be assumed to refer to temperatures near room temperature unless otherwise stated. Values for gases are the calculated ideal gas densities at 25\u00b0C and 101.325 kPa. \n\nOriginal values for gasses are converted from g/L to g/cm\\ :sup:`3`.\n\nFor elements where several allotropes exist, the density corresponding to the most abundant are reported (for full list refer to :cite:`haynes2014crc`), namely:\n\n   - Antimony (gray)\n   - Berkelium (\u03b1 form)\n   - Carbon (graphite)\n   - Phosphorus (white)\n   - Selenium (gray)\n   - Sulfur (rhombic)\n   - Tin (white)\n\nFor elements where experimental data is not available, theoretical estimates taken from :cite:`enwiki:1039678864` are used, namely for:\n\n   - Astatine\n   - Francium\n   - Einsteinium\n   - Fermium\n   - Mendelevium\n   - Nobelium\n   - Lawrencium\n   - Rutherfordium\n   - Dubnium\n   - Seaborgium\n   - Bohrium\n   - Hassium\n   - Meitnerium\n   - Darmstadtium\n   - Roentgenium\n   - Copernicium\n   - Nihonium\n   - Flerovium\n   - Moscovium\n   - Livermorium\n   - Tennessine\n   - Oganesson\n",
         "attribute_name": "density",
         "category": "material properties",
         "citation_keys": "haynes2014crc,enwiki:1039678864",
@@ -263,7 +263,7 @@
         "annotations": null,
         "attribute_name": "dipole_polarizability",
         "category": "electric and optical properties",
-        "citation_keys": "Schwerdtfeger2023",
+        "citation_keys": "Schwerdtfeger2018",
         "class_name": "Element",
         "column_name": "dipole_polarizability",
         "description": "Dipole polarizability",
@@ -276,7 +276,7 @@
         "annotations": null,
         "attribute_name": "dipole_polarizability_unc",
         "category": "electric and optical properties",
-        "citation_keys": "Schwerdtfeger2023",
+        "citation_keys": "Schwerdtfeger2018",
         "class_name": "Element",
         "column_name": "dipole_polarizability_unc",
         "description": "Uncertainty of the dipole polarizability",
@@ -325,7 +325,7 @@
         "value_origin": "STORED"
     },
     {
-        "annotations": "Electron affinities were taken from :cite:`haynes2014crc` for the elements for which the data was available. For He, Be, N, Ar and Xe affinities were taken from :cite:`Andersen2004` where they were specified for metastable ions and therefore the values are negative.\n   \nUpdates\n\n- Electron affinity of niobium was taken from :cite:`Luo2016`.\n- Electron affinity of cobalt was taken from :cite:`Chen2016a`.\n- Electron affinity of lead was taken from :cite:`Chen2016`.",
+        "annotations": "Electron affinities were taken from :cite:`haynes2014crc` for the elements for which the data was available. For He, Be, N, Ar and Xe affinities were taken from :cite:`Andersen2004` where they were specified for metastable ions and therefore the values are negative.\n   \n   Updates\n\n     - Electron affinity of niobium was taken from :cite:`Luo2016`.\n     - Electron affinity of cobalt was taken from :cite:`Chen2016a`.\n     - Electron affinity of lead was taken from :cite:`Chen2016`.",
         "attribute_name": "electron_affinity",
         "category": "chemical properties",
         "citation_keys": "haynes2014crc,Andersen2004",
@@ -1105,7 +1105,7 @@
         "value_origin": "COMPUTED"
     },
     {
-        "annotations": "The screening constants were calculated according to the following formula\n\n.. math::\n\n   \\sigma_{n,l,m} = Z - n\\cdot\\zeta_{n,l,m}\n\nwhere :math:`n` is the principal quantum number, :math:`Z` is the atomic number, :math:`\\sigma_{n,l,m}` is the screening constant, :math:`\\zeta_{n,l,m}` is the optimized exponent from :cite:`Clementi1963,Clementi1967`.\n\nFor elements Nb, Mo, Ru, Rh, Pd and Ag the exponent values corresponding to the ground state electronic configuration were taken (entries with superscript `a` in Table II in :cite:`Clementi1967`).\n\nFor elements La, Pr, Nd and Pm two exponent were reported for 4f shell denoted 4f and 4f' in :cite:`Clementi1967`. The value corresponding to 4f were used since according to the authors these are the dominant ones.",
+        "annotations": "   The screening constants were calculated according to the following formula\n\n   .. math::\n   \n      \\sigma_{n,l,m} = Z - n\\cdot\\zeta_{n,l,m}\n   \n   where :math:`n` is the principal quantum number, :math:`Z` is the atomic number,\n   :math:`\\sigma_{n,l,m}` is the screening constant, :math:`\\zeta_{n,l,m}` is the\n   optimized exponent from :cite:`Clementi1963,Clementi1967`.\n   \n   For elements Nb, Mo, Ru, Rh, Pd and Ag the exponent values corresponding to the\n   ground state electronic configuration were taken (entries with superscript `a`\n   in Table II in :cite:`Clementi1967`).\n   \n   For elements La, Pr, Nd and Pm two exponent were reported for 4f shell denoted\n   4f and 4f' in :cite:`Clementi1967`. The value corresponding to 4f were used\n   since according to the authors these are the dominant ones.",
         "attribute_name": "sconst",
         "category": "chemical properties",
         "citation_keys": "Clementi1963,Clementi1967",
@@ -1352,10 +1352,10 @@
         "value_origin": "STORED"
     },
     {
-        "annotations": "Original data taken from :cite:`Stone2014` and updated with the data from :cite:`Stone2019table` for all ground state isotopes.",
+        "annotations": null,
         "attribute_name": "g_factor",
         "category": "isotope properties",
-        "citation_keys": "Stone2014,Stone2019table",
+        "citation_keys": "Stone2014",
         "class_name": "Isotope",
         "column_name": "g_factor",
         "description": "Nuclear g-factor",
@@ -1368,7 +1368,7 @@
         "annotations": null,
         "attribute_name": "g_factor_uncertainty",
         "category": "isotope properties",
-        "citation_keys": "Stone2014,Stone2019table",
+        "citation_keys": "Stone2014",
         "class_name": "Isotope",
         "column_name": "g_factor_uncertainty",
         "description": "Uncertainty of the nuclear g-factor",
@@ -1482,10 +1482,10 @@
         "value_origin": "STORED"
     },
     {
-        "annotations": "Original data taken from :cite:`Stone2013` and updated with the data from :cite:`Stone2021table` for all ground state isotopes.",
+        "annotations": null,
         "attribute_name": "quadrupole_moment",
         "category": "isotope properties",
-        "citation_keys": "Stone2013,Stone2021table",
+        "citation_keys": "Stone2013",
         "class_name": "Isotope",
         "column_name": "quadrupole_moment",
         "description": "Nuclear electric quadrupole moment",
@@ -1498,10 +1498,10 @@
         "annotations": null,
         "attribute_name": "quadrupole_moment_uncertainty",
         "category": "isotope properties",
-        "citation_keys": "Stone2013,Stone2021table",
+        "citation_keys": "Stone2013",
         "class_name": "Isotope",
         "column_name": "quadrupole_moment_uncertainty",
-        "description": "Nuclear electric quadrupole moment uncertainty",
+        "description": "Nuclear electric quadrupole moment",
         "id": 116,
         "table_name": "isotopes",
         "unit": "100 fm^2",
@@ -2281,7 +2281,7 @@
         "citation_keys": "RSC_periodic_table",
         "class_name": "Element",
         "column_name": "substitutability",
-        "description": "The availability of suitable substitutes for a given commodity. High - substitution not possible or very difficult, medium - substitution is possible but there may be an economic and/or performance impact, low = substitution is possible with little or no economic and/or performance impact",
+        "description": "The availability of suitable substitutes for a given commodity.\nHigh = substitution not possible or very difficult.\nMedium = substitution is possible but there may be an economic and/or performance impact\nLow = substitution is possible with little or no economic and/or performance impact",
         "id": 179,
         "table_name": "elements",
         "unit": null,
@@ -2320,7 +2320,7 @@
         "citation_keys": "haynes2016crc",
         "class_name": "PhaseTransition",
         "column_name": "is_sublimation_point",
-        "description": "Indicates that boiling_point marks a sublimation point, where the vapor pressure of the solid phase reaches 101.325 kPa (1 atm)",
+        "description": "Indicates that boiling_point marks a sublimation point, where the vapor pressure of the solid phase reaches\r\n101 325 kPa (1 atm)",
         "id": 182,
         "table_name": "phasetransitions",
         "unit": null,
@@ -2336,32 +2336,6 @@
         "description": "Indicates that melting_point marks the temperature of the transition to the crystalline form immediately below that entry",
         "id": 183,
         "table_name": "phasetransitions",
-        "unit": null,
-        "value_origin": "STORED"
-    },
-    {
-        "annotations": "In cases where a range was provided in the source, the lower value was used. In cases of multiple isotopes the lower priced isotope's price was used.",
-        "attribute_name": "price_per_kg",
-        "category": "monetary",
-        "citation_keys": "enwiki:1262554464",
-        "class_name": "Element",
-        "column_name": "price_per_kg",
-        "description": "Price per kg in USD",
-        "id": 184,
-        "table_name": "elements",
-        "unit": "USD/kg",
-        "value_origin": "STORED"
-    },
-    {
-        "annotations": "In the original paper multiple values of electronegativity are provided for several elements. The values corresponding to following hybrids were chosen:\n\n- C *sp3*\n- N *p*\n- O *p*\n- F *p*\n- CL *p*\n- Br *p*\n- I *p*",
-        "attribute_name": "en_mullay",
-        "category": "chemical properties",
-        "citation_keys": "mullay1984atomic",
-        "class_name": "Element",
-        "column_name": "en_mullay",
-        "description": "Mullay's scale of electronegativity",
-        "id": 185,
-        "table_name": "elements",
         "unit": null,
         "value_origin": "STORED"
     }
