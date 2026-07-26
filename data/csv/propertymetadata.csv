@@ -3,7 +3,7 @@
 3,elements,atomic_number,Element,atomic_number,"basic properties",STORED,"Atomic number",,,
 4,elements,atomic_radius,Element,atomic_radius,"atomic size properties",STORED,"Atomic radius",pm,,Slater1964
 5,elements,atomic_radius_rahm,Element,atomic_radius_rahm,"atomic size properties",STORED,"Atomic radius by Rahm et al.",pm,,"Rahm2016,Rahm2017"
-6,elements,atomic_volume,Element,atomic_volume,"atomic size properties",STORED,"Atomic volume",cm^3/mol,,
+6,elements,atomic_volume,Element,atomic_volume,"atomic size properties",COMPUTED,"Atomic volume",cm^3/mol,,
 7,elements,atomic_weight,Element,atomic_weight,"basic properties",STORED,"Relative atomic weight",Da,"Atomic weights and their uncertainties were retrieved mainly from ref. :cite:`iupac-weights`. For elements whose values were given as ranges the *conventional atomic weights* from Table 3 in ref. :cite:`Meija2016` were taken. For radioactive elements the standard approach was adopted where the weight is taken as the mass number of the most stable isotope. The data was obtained from `CIAAW page on radioactive elements <http://www.ciaaw.org/radioactive-elements.htm>`_. In cases where two isotopes were specified the one with the smaller standard deviation was chosen. In case of Tc and Pm relative weights of their isotopes were used, for Tc isotope 98, and for Pm isotope 145 were taken from `CIAAW <http://www.ciaaw.org/atomic-masses.htm>`_.","Meija2016,iupac-weights"
 8,elements,atomic_weight_uncertainty,Element,atomic_weight_uncertainty,"basic properties",STORED,"Atomic weight uncertainty",Da,,"Meija2016,iupac-weights"
 9,elements,block,Element,block,"periodic table properties",STORED,"Block in periodic table",,,
@@ -22,52 +22,52 @@ Original values for gasses are converted from g/L to g/cm\ :sup:`3`.
 
 For elements where several allotropes exist, the density corresponding to the most abundant are reported (for full list refer to :cite:`haynes2014crc`), namely:
 
-   - Antimony (gray)
-   - Berkelium (α form)
-   - Carbon (graphite)
-   - Phosphorus (white)
-   - Selenium (gray)
-   - Sulfur (rhombic)
-   - Tin (white)
+- Antimony (gray)
+- Berkelium (α form)
+- Carbon (graphite)
+- Phosphorus (white)
+- Selenium (gray)
+- Sulfur (rhombic)
+- Tin (white)
 
 For elements where experimental data is not available, theoretical estimates taken from :cite:`enwiki:1039678864` are used, namely for:
 
-   - Astatine
-   - Francium
-   - Einsteinium
-   - Fermium
-   - Mendelevium
-   - Nobelium
-   - Lawrencium
-   - Rutherfordium
-   - Dubnium
-   - Seaborgium
-   - Bohrium
-   - Hassium
-   - Meitnerium
-   - Darmstadtium
-   - Roentgenium
-   - Copernicium
-   - Nihonium
-   - Flerovium
-   - Moscovium
-   - Livermorium
-   - Tennessine
-   - Oganesson
+- Astatine
+- Francium
+- Einsteinium
+- Fermium
+- Mendelevium
+- Nobelium
+- Lawrencium
+- Rutherfordium
+- Dubnium
+- Seaborgium
+- Bohrium
+- Hassium
+- Meitnerium
+- Darmstadtium
+- Roentgenium
+- Copernicium
+- Nihonium
+- Flerovium
+- Moscovium
+- Livermorium
+- Tennessine
+- Oganesson
 ","haynes2014crc,enwiki:1039678864"
 20,elements,description,Element,description,"descriptive properties",STORED,"Short description of the element",,,
-21,elements,dipole_polarizability,Element,dipole_polarizability,"electric and optical properties",STORED,"Dipole polarizability",bohr^3,,Schwerdtfeger2018
-22,elements,dipole_polarizability_unc,Element,dipole_polarizability_unc,"electric and optical properties",STORED,"Uncertainty of the dipole polarizability",bohr^3,,Schwerdtfeger2018
+21,elements,dipole_polarizability,Element,dipole_polarizability,"electric and optical properties",STORED,"Dipole polarizability",bohr^3,,Schwerdtfeger2023
+22,elements,dipole_polarizability_unc,Element,dipole_polarizability_unc,"electric and optical properties",STORED,"Uncertainty of the dipole polarizability",bohr^3,,Schwerdtfeger2023
 23,elements,discoverers,Element,discoverers,"descriptive properties",STORED,"The discoverers of the element",,,
 24,elements,discovery_location,Element,discovery_location,"descriptive properties",STORED,"The location where the element was discovered",,,
 25,elements,discovery_year,Element,discovery_year,"descriptive properties",STORED,"The year the element was discovered",,,
 26,elements,electron_affinity,Element,electron_affinity,"chemical properties",STORED,"Electron affinity",eV,"Electron affinities were taken from :cite:`haynes2014crc` for the elements for which the data was available. For He, Be, N, Ar and Xe affinities were taken from :cite:`Andersen2004` where they were specified for metastable ions and therefore the values are negative.
    
-   Updates
+Updates
 
-     - Electron affinity of niobium was taken from :cite:`Luo2016`.
-     - Electron affinity of cobalt was taken from :cite:`Chen2016a`.
-     - Electron affinity of lead was taken from :cite:`Chen2016`.","haynes2014crc,Andersen2004"
+- Electron affinity of niobium was taken from :cite:`Luo2016`.
+- Electron affinity of cobalt was taken from :cite:`Chen2016a`.
+- Electron affinity of lead was taken from :cite:`Chen2016`.","haynes2014crc,Andersen2004"
 27,elements,electronic_configuration,Element,econf,"chemical properties",STORED,"Ground state electronic configuration",,,
 28,elements,en_allen,Element,electronegativity_allen,"chemical properties",STORED,"Allen's scale of electronegativity",eV,"The values of configurational energies from refs. :cite:`Mann2000a` and :cite:`Mann2000` were taken as reported in eV without converting to Pauling units.","Mann2000a,Mann2000"
 29,elements,en_ghosh,Element,electronegativity_ghosh,"chemical properties",STORED,"Ghosh's scale of electronegativity",1/pm,,Ghosh2005
@@ -135,23 +135,17 @@ For elements where experimental data is not available, theoretical estimates tak
 83,,,Element,ionic_radii,"atomic size properties",STORED,"See IonicRadius class documentation",,,"Shannon1976,Lundberg2016"
 84,,,Element,oxistates,"chemical properties",STORED,"See OxidationState class documentation",,,enwiki:1102394064
 85,,,Element,nist_webbook_url,"external resources",COMPUTED,"URL for the NIST Chemistry WebBook",,,NIST-CH-WB
-86,,,Element,sconst,"chemical properties",STORED,"See ScreeningConstant class documentation",,"   The screening constants were calculated according to the following formula
+86,,,Element,sconst,"chemical properties",STORED,"See ScreeningConstant class documentation",,"The screening constants were calculated according to the following formula
 
-   .. math::
-   
-      \sigma_{n,l,m} = Z - n\cdot\zeta_{n,l,m}
-   
-   where :math:`n` is the principal quantum number, :math:`Z` is the atomic number,
-   :math:`\sigma_{n,l,m}` is the screening constant, :math:`\zeta_{n,l,m}` is the
-   optimized exponent from :cite:`Clementi1963,Clementi1967`.
-   
-   For elements Nb, Mo, Ru, Rh, Pd and Ag the exponent values corresponding to the
-   ground state electronic configuration were taken (entries with superscript `a`
-   in Table II in :cite:`Clementi1967`).
-   
-   For elements La, Pr, Nd and Pm two exponent were reported for 4f shell denoted
-   4f and 4f' in :cite:`Clementi1967`. The value corresponding to 4f were used
-   since according to the authors these are the dominant ones.","Clementi1963,Clementi1967"
+.. math::
+
+   \sigma_{n,l,m} = Z - n\cdot\zeta_{n,l,m}
+
+where :math:`n` is the principal quantum number, :math:`Z` is the atomic number, :math:`\sigma_{n,l,m}` is the screening constant, :math:`\zeta_{n,l,m}` is the optimized exponent from :cite:`Clementi1963,Clementi1967`.
+
+For elements Nb, Mo, Ru, Rh, Pd and Ag the exponent values corresponding to the ground state electronic configuration were taken (entries with superscript `a` in Table II in :cite:`Clementi1967`).
+
+For elements La, Pr, Nd and Pm two exponent were reported for 4f shell denoted 4f and 4f' in :cite:`Clementi1967`. The value corresponding to 4f were used since according to the authors these are the dominant ones.","Clementi1963,Clementi1967"
 87,,,Element,hardness,"chemical properties",COMPUTED,"Absolute hardness. Can also be calcualted for ions.",eV,,ParrPearson1983
 88,,,Element,softness,"chemical properties",COMPUTED,"Absolute softness. Can also be calculated for ions.",1/eV,,
 89,,,Element,zeff,"chemical properties",COMPUTED,"Effective nuclear charge",,,
@@ -170,8 +164,8 @@ For elements where experimental data is not available, theoretical estimates tak
 102,isotopes,atomic_number,Isotope,atomic_number,"isotope properties",STORED,"Atomic number",,,
 103,isotopes,decay_modes,Isotope,decay_modes,"isotope properties",STORED,"Decay modes with intensities",,,Kondev2021
 104,isotopes,discovery_year,Isotope,discovery_year,"isotope properties",STORED,"Year the isotope was discovered",,,Kondev2021
-105,isotopes,g_factor,Isotope,g_factor,"isotope properties",STORED,"Nuclear g-factor",,,Stone2014
-106,isotopes,g_factor_uncertainty,Isotope,g_factor_uncertainty,"isotope properties",STORED,"Uncertainty of the nuclear g-factor",,,Stone2014
+105,isotopes,g_factor,Isotope,g_factor,"isotope properties",STORED,"Nuclear g-factor",,"Original data taken from :cite:`Stone2014` and updated with the data from :cite:`Stone2019table` for all ground state isotopes.","Stone2014,Stone2019table"
+106,isotopes,g_factor_uncertainty,Isotope,g_factor_uncertainty,"isotope properties",STORED,"Uncertainty of the nuclear g-factor",,,"Stone2014,Stone2019table"
 107,isotopes,half_life,Isotope,half_life,"isotope properties",STORED,"Half life of the isotope",,,Kondev2021
 108,isotopes,half_life_uncertainty,Isotope,half_life_uncertainty,"isotope properties",STORED,"Uncertainty of the half life",,,Kondev2021
 109,isotopes,half_life_unit,Isotope,half_life_unit,"isotope properties",STORED,"Unit in which the half life is given",," 1 year = 365.2422 days = 31 556 926 sec",Kondev2021
@@ -180,8 +174,8 @@ For elements where experimental data is not available, theoretical estimates tak
 112,isotopes,mass_number,Isotope,mass_number,"isotope properties",STORED,"Mass number of the isotope",,,iupac-masses
 113,isotopes,mass_uncertainty,Isotope,mass_uncertainty,"isotope properties",STORED,"Uncertainty of the atomic mass",Da,,iupac-masses
 114,isotopes,parity,Isotope,parity,"isotope properties",STORED,"Parity, if present, it can be either `+` or `-`",,,Kondev2021
-115,isotopes,quadrupole_moment,Isotope,quadrupole_moment,"isotope properties",STORED,"Nuclear electric quadrupole moment","100 fm^2",,Stone2013
-116,isotopes,quadrupole_moment_uncertainty,Isotope,quadrupole_moment_uncertainty,"isotope properties",STORED,"Nuclear electric quadrupole moment","100 fm^2",,Stone2013
+115,isotopes,quadrupole_moment,Isotope,quadrupole_moment,"isotope properties",STORED,"Nuclear electric quadrupole moment","100 fm^2","Original data taken from :cite:`Stone2013` and updated with the data from :cite:`Stone2021table` for all ground state isotopes.","Stone2013,Stone2021table"
+116,isotopes,quadrupole_moment_uncertainty,Isotope,quadrupole_moment_uncertainty,"isotope properties",STORED,"Nuclear electric quadrupole moment uncertainty","100 fm^2",,"Stone2013,Stone2021table"
 117,isotopes,spin,Isotope,spin,"isotope properties",STORED,"Nuclear spin quantum number",,,Kondev2021
 118,scattering_factors,energy,ScatteringFactor,energy,"electric and optical properties",STORED,"Energy of the incident photon",eV,"specific data references available at cited data source","atomic_scattering_factors,henke1993xray"
 119,scattering_factors,f1,ScatteringFactor,f1,"electric and optical properties",STORED,"Scattering factor f1",,"specific data references available at cited data source","atomic_scattering_factors,henke1993xray"
@@ -241,12 +235,18 @@ For elements where experimental data is not available, theoretical estimates tak
 176,elements,recycling_rate,Element,recycling_rate,"supply risk properties",STORED,"The percentage of a commodity which is recycled. A higher recycling rate may reduce risk to supply.",%,,RSC_periodic_table
 177,elements,relative_supply_risk,Element,relative_supply_risk,"supply risk properties",STORED,"An integrated supply risk index from 1 (very low risk) to 10 (very high risk). This is calculated by combining the scores for crustal abundance, reserve distribution, production concentration, substitutability, recycling rate and political stability scores.",,,RSC_periodic_table
 178,elements,reserve_distribution,Element,reserve_distribution,"supply risk properties",STORED,"The percentage of the world reserves located in the country with the largest reserves. The higher the value, the larger risk there is to supply.",%,,RSC_periodic_table
-179,elements,substitutability,Element,substitutability,"supply risk properties",STORED,"The availability of suitable substitutes for a given commodity.
-High = substitution not possible or very difficult.
-Medium = substitution is possible but there may be an economic and/or performance impact
-Low = substitution is possible with little or no economic and/or performance impact",,,RSC_periodic_table
+179,elements,substitutability,Element,substitutability,"supply risk properties",STORED,"The availability of suitable substitutes for a given commodity. High - substitution not possible or very difficult, medium - substitution is possible but there may be an economic and/or performance impact, low = substitution is possible with little or no economic and/or performance impact",,,RSC_periodic_table
 180,elements,top_3_producers,Element,top_3_producers,"supply risk properties",STORED,"Top 3 countries or regions that produce the element.",,,RSC_periodic_table
 181,elements,top_3_reserve_holders,Element,top_3_reserve_holders,"supply risk properties",STORED,"Top 3 countries or regions that hold reserves the element.",,,RSC_periodic_table
-182,phasetransitions,is_sublimation_point,PhaseTransition,is_sublimation_point,"annotation flag",STORED,"Indicates that boiling_point marks a sublimation point, where the vapor pressure of the solid phase reaches
-101 325 kPa (1 atm)",,,haynes2016crc
+182,phasetransitions,is_sublimation_point,PhaseTransition,is_sublimation_point,"annotation flag",STORED,"Indicates that boiling_point marks a sublimation point, where the vapor pressure of the solid phase reaches 101.325 kPa (1 atm)",,,haynes2016crc
 183,phasetransitions,is_transition,PhaseTransition,is_transition,"annotation flag",STORED,"Indicates that melting_point marks the temperature of the transition to the crystalline form immediately below that entry",,,haynes2016crc
+184,elements,price_per_kg,Element,price_per_kg,monetary,STORED,"Price per kg in USD",USD/kg,"In cases where a range was provided in the source, the lower value was used. In cases of multiple isotopes the lower priced isotope's price was used.",enwiki:1262554464
+185,elements,en_mullay,Element,en_mullay,"chemical properties",STORED,"Mullay's scale of electronegativity",,"In the original paper multiple values of electronegativity are provided for several elements. The values corresponding to following hybrids were chosen:
+
+- C *sp3*
+- N *p*
+- O *p*
+- F *p*
+- CL *p*
+- Br *p*
+- I *p*",mullay1984atomic
