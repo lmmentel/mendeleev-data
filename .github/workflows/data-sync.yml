@@ -58,6 +58,7 @@ jobs:
         run: gh label create "auto-merge" --description "Auto-merge after CI passes" 2>/dev/null || true
 
       - name: Create branch, commit, and open PR
+        id: create-pr
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -74,3 +75,11 @@ jobs:
             --title "Data update for mendeleev ${VERSION}" \
             --body "Automated data export for mendeleev ${VERSION}." \
             --label "auto-merge"
+
+      - name: Cleanup remote branch on failure
+        if: failure() && steps.create-pr.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="${{ github.event.client_payload.version || inputs.version }}"
+          git push origin --delete "data/${VERSION}" 2>/dev/null || true
