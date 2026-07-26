@@ -1,4 +1,3 @@
-id,atomic_number,charge,econf,coordination,spin,crystal_radius,ionic_radius,origin,most_reliable
 1,89,3,6p6,VI,"",126.0,112.0,"from r^3 vs V plots, ",0
 2,47,1,4d10,II,"",81.0,67.0,"",0
 3,47,1,4d10,IV,"",114.0,100.0,"calculated, ",0
