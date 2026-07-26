@@ -20,6 +20,7 @@ This repository contains data for **mendeleev v1.1.0**.
 
 | Data Release | Mendeleev Release |
 |---|---|
+| [v1.0.0](https://github.com/lmmentel/mendeleev-data/releases/tag/v1.0.0) | [mendeleev v1.0.0](https://github.com/lmmentel/mendeleev/releases/tag/v1.0.0) |
 | [v0.20.0](https://github.com/lmmentel/mendeleev-data/releases/tag/v0.20.0) | [mendeleev v0.20.0](https://github.com/lmmentel/mendeleev/releases/tag/v0.20.0) |
 | [v0.19.0](https://github.com/lmmentel/mendeleev-data/releases/tag/v0.19.0) | [mendeleev v0.19.0](https://github.com/lmmentel/mendeleev/releases/tag/v0.19.0) |
 
