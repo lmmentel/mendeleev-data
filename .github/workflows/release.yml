@@ -1,0 +1,26 @@
+name: Create data release
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.head_commit.message, 'Data update for mendeleev')
+    permissions:
+      contents: write
+    steps:
+      - name: Extract version
+        id: version
+        run: |
+          VERSION=$(echo "${{ github.event.head_commit.message }}" | grep -oP 'v[\d.]+')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: ${{ steps.version.outputs.version }}
+          body: |
+            Data release matching [mendeleev ${{ steps.version.outputs.version }}](https://github.com/lmmentel/mendeleev/releases/tag/${{ steps.version.outputs.version }})

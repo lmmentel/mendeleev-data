@@ -1,0 +1,27 @@
+name: Merge data PR
+
+on:
+  repository_dispatch:
+    types: [mendeleev_published]
+
+jobs:
+  merge-pr:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Find and merge open PR for this version
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VERSION: ${{ github.event.client_payload.version }}
+        run: |
+          PR_NUMBER=$(gh pr list --label "auto-merge" --state open \
+            --json number,title --jq \
+            ".[] | select(.title | contains(\"${VERSION}\")) | .number")
+          if [ -n "$PR_NUMBER" ]; then
+            gh pr merge "$PR_NUMBER" --auto --squash
+          else
+            echo "No open PR found for ${VERSION}"
+            exit 1
+          fi

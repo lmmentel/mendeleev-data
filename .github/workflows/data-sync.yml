@@ -1,0 +1,57 @@
+name: Sync data on release
+
+on:
+  repository_dispatch:
+    types: [mendeleev_created]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "mendeleev version (e.g. v1.0.0)"
+        required: true
+        type: string
+
+jobs:
+  create-data-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: mendeleev-data
+
+      - uses: actions/checkout@v4
+        with:
+          repository: lmmentel/mendeleev
+          ref: ${{ github.event.client_payload.version || inputs.version }}
+          path: mendeleev
+
+      - name: Install dependencies
+        run: pip install invoke
+
+      - name: Export data
+        run: cd mendeleev && inv export --dest ../mendeleev-data/data
+
+      - name: Update pyproject.toml version pins
+        run: |
+          VERSION="${{ github.event.client_payload.version || inputs.version }}"
+          VERSION_NUM="${VERSION#v}"
+          cd mendeleev-data
+          sed -i "s/^version = .*/version = \"${VERSION_NUM}\"/" pyproject.toml
+          sed -i "s/^mendeleev = .*/mendeleev = \"${VERSION_NUM}\"/" pyproject.toml
+
+      - name: Create branch, commit, and open PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="${{ github.event.client_payload.version || inputs.version }}"
+          cd mendeleev-data
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "data/${VERSION}"
+          git add -A
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Data update for mendeleev ${VERSION}"
+          git push origin "data/${VERSION}"
+          gh pr create \
+            --title "Data update for mendeleev ${VERSION}" \
+            --body "Automated data export for mendeleev ${VERSION}." \
+            --label "auto-merge"
