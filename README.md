@@ -9,6 +9,19 @@
 
   <h3 align="center">Data assets for <a href="https://github.com/lmmentel/mendeleev">mendeleev</a> python package</h3>
 
+## Current Version
+
+This repository contains data for **mendeleev v1.1.0**.
+
+[View mendeleev v1.1.0 release notes](https://github.com/lmmentel/mendeleev/releases/tag/v1.1.0)
+
+## Previous Versions
+
+| Data Release | Mendeleev Release |
+|---|---|
+| [v0.20.0](https://github.com/lmmentel/mendeleev-data/releases/tag/v0.20.0) | [mendeleev v0.20.0](https://github.com/lmmentel/mendeleev/releases/tag/v0.20.0) |
+| [v0.19.0](https://github.com/lmmentel/mendeleev-data/releases/tag/v0.19.0) | [mendeleev v0.19.0](https://github.com/lmmentel/mendeleev/releases/tag/v0.19.0) |
+
 ## Data
 
 All tables from the [mendeleev](https://github.com/lmmentel/mendeleev) package are exported:

@@ -1,3 +1,4 @@
+id,atomic_number,boiling_point,melting_point,critical_temperature,critical_pressure,triple_point_temperature,triple_point_pressure,allotrope,is_sublimation_point,is_transition
 1,89,3473.15,1323.15,,,,,,,
 2,13,2792.15,933.473,6700.15,,,,,,
 3,95,,1449.15,,,,,,,

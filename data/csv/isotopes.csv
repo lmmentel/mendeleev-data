@@ -1,3 +1,4 @@
+id,atomic_number,mass,abundance,mass_number,mass_uncertainty,is_radioactive,half_life,half_life_unit,spin,g_factor,quadrupole_moment,parity,discovery_year,g_factor_uncertainty,abundance_uncertainty,half_life_uncertainty,quadrupole_moment_uncertainty
 1,1,1.007825031898,99.9855,1,1.4e-11,0,,,1/2,5.58569478988647,0.0,+,1920,1.79999997129698e-08,0.0078,,0.0
 2,1,2.014101777844,0.0145,2,1.5e-11,0,,,1,0.857438206672668,0.00285780010744929,+,1932,4.99999996961265e-09,0.0078,,3.00000010611257e-07
 3,1,3.01604928132,,3,8.0e-11,1,12.32,year,1/2,5.95792484283447,0.0,+,1934,2.79999987640167e-08,,0.02,0.0

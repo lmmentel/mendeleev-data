@@ -1,3 +1,4 @@
+id,table_name,column_name,class_name,attribute_name,category,value_origin,description,unit,annotations,citation_keys
 1,elements,abundance_crust,Element,abundance_crust,abundance,STORED,"Abundance in the Earth's crust",mg/kg,,haynes2014crc
 2,elements,abundance_sea,Element,abundance_sea,abundance,STORED,"Abundance in the seas",mg/L,,haynes2014crc
 3,elements,atomic_number,Element,atomic_number,"basic properties",STORED,"Atomic number",,,
