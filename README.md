@@ -11,9 +11,9 @@
 
 ## Current Version
 
-This repository contains data for **mendeleev v0.20.1**.
+This repository contains data for **mendeleev v1.1.0**.
 
-[View mendeleev v0.20.1 release notes](https://github.com/lmmentel/mendeleev/releases/tag/v0.20.1)
+[View mendeleev v1.1.0 release notes](https://github.com/lmmentel/mendeleev/releases/tag/v1.1.0)
 
 
 ## Previous Versions
