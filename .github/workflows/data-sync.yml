@@ -41,6 +41,11 @@ jobs:
           sed -i "s/^version = .*/version = \"${VERSION_NUM}\"/" pyproject.toml
           sed -i "s/^mendeleev = .*/mendeleev = \"${VERSION_NUM}\"/" pyproject.toml
 
+      - name: Ensure auto-merge label exists
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh label create "auto-merge" --description "Auto-merge after CI passes" 2>/dev/null || true
+
       - name: Create branch, commit, and open PR
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
