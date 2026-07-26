@@ -16,7 +16,7 @@ def get_previous_releases(exclude_version: str) -> list[dict[str, str]]:
             "-R", "lmmentel/mendeleev-data",
             "--json", "tagName",
             "-L", "50",
-            "--jq", '.[1:] | sort_by(.tagName) | reverse',
+            "--jq", 'sort_by(.tagName) | reverse',
         ],
         capture_output=True,
         text=True,
