@@ -5,14 +5,20 @@ description = "Periodic table data for the mendeleev package"
 authors = ["Lukasz Mentel <lmmentel@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+packages = [{include = "scripts"}]
 
 [tool.poetry.dependencies]
-python =  ">=3.9,<3.13"
-mendeleev = "0.19.0"
-
+python = ">=3.9,<3.13"
 
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.7.2"
+
+[tool.poetry.scripts]
+format-data = "scripts.format_all:main"
+format-json = "scripts.format_json:main"
+format-csv = "scripts.format_csv:main"
+format-md = "scripts.format_md:main"
+update-readme = "scripts.update_readme:main"
 
 [build-system]
 requires = ["poetry-core"]

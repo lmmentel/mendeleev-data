@@ -34,7 +34,7 @@ jobs:
         run: cd mendeleev && inv export --dest ../mendeleev-data/data
 
       - name: Install mendeleev-data package
-        run: cd mendeleev-data && pip install -e .
+        run: cd mendeleev-data && pip install .
 
       - name: Format exported data
         run: cd mendeleev-data && python -m scripts.format_all --data-dir data --db-path ../mendeleev/mendeleev/elements.db
@@ -45,13 +45,12 @@ jobs:
           VERSION: ${{ github.event.client_payload.version || inputs.version }}
         run: cd mendeleev-data && python -m scripts.update_readme "$VERSION"
 
-      - name: Update pyproject.toml version pins
+      - name: Update version in pyproject.toml
         run: |
           VERSION="${{ github.event.client_payload.version || inputs.version }}"
           VERSION_NUM="${VERSION#v}"
           cd mendeleev-data
           sed -i "s/^version = .*/version = \"${VERSION_NUM}\"/" pyproject.toml
-          sed -i "s/^mendeleev = .*/mendeleev = \"${VERSION_NUM}\"/" pyproject.toml
 
       - name: Ensure auto-merge label exists
         env:
