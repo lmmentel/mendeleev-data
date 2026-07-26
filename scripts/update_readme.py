@@ -20,6 +20,7 @@ def get_previous_releases(exclude_version: str) -> list[dict[str, str]]:
         ],
         capture_output=True,
         text=True,
+        check=False,
     )
     if result.returncode != 0 or not result.stdout.strip():
         return []
