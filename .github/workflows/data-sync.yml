@@ -43,53 +43,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERSION: ${{ github.event.client_payload.version || inputs.version }}
-        run: |
-          cd mendeleev-data
-          python3 - <<'EOF'
-          import os, re, subprocess
-
-          version = os.environ["VERSION"]
-          readme = Path("README.md")
-          content = readme.read_text()
-
-          # Update current version section
-          content = re.sub(
-              r"## Current Version\n.*?(?=\n## )",
-              f"## Current Version\n\nThis repository contains data for **mendeleev {version}**.\n\n"
-              f"[View mendeleev {version} release notes](https://github.com/lmmentel/mendeleev/releases/tag/{version})\n\n",
-              content,
-              flags=re.DOTALL,
-          )
-
-          # Build previous versions table from GitHub releases
-          result = subprocess.run(
-              ["gh", "release", "list", "-R", "lmmentel/mendeleev-data",
-               "--json", "tagName", "-L", "50", "--jq",
-               '.[1:] | sort_by(.tagName) | reverse'],
-              capture_output=True, text=True
-          )
-          import json
-          releases = json.loads(result.stdout) if result.stdout.strip() else []
-
-          rows = []
-          for r in releases:
-              tag = r["tagName"]
-              rows.append(
-                  f"| [{tag}](https://github.com/lmmentel/mendeleev-data/releases/tag/{tag})"
-                  f" | [mendeleev {tag}](https://github.com/lmmentel/mendeleev/releases/tag/{tag}) |"
-              )
-          table = "\n".join(rows) if rows else "_No previous releases._"
-
-          content = re.sub(
-              r"## Previous Versions\n.*?(?=\n## |\Z)",
-              f"## Previous Versions\n\n| Data Release | Mendeleev Release |\n|---|---|\n{table}\n\n",
-              content,
-              flags=re.DOTALL,
-          )
-
-          readme.write_text(content)
-          print(f"README updated for {version}")
-          EOF
+        run: cd mendeleev-data && python -m scripts.update_readme "$VERSION"
 
       - name: Update pyproject.toml version pins
         run: |

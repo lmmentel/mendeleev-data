@@ -19,6 +19,7 @@ format-data = "scripts.format_all:main"
 format-json = "scripts.format_json:main"
 format-csv = "scripts.format_csv:main"
 format-md = "scripts.format_md:main"
+update-readme = "scripts.update_readme:main"
 
 [build-system]
 requires = ["poetry-core"]
