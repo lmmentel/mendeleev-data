@@ -263,7 +263,7 @@
         "annotations": null,
         "attribute_name": "dipole_polarizability",
         "category": "electric and optical properties",
-        "citation_keys": "Schwerdtfeger2018",
+        "citation_keys": "Schwerdtfeger2023",
         "class_name": "Element",
         "column_name": "dipole_polarizability",
         "description": "Dipole polarizability",
@@ -276,7 +276,7 @@
         "annotations": null,
         "attribute_name": "dipole_polarizability_unc",
         "category": "electric and optical properties",
-        "citation_keys": "Schwerdtfeger2018",
+        "citation_keys": "Schwerdtfeger2023",
         "class_name": "Element",
         "column_name": "dipole_polarizability_unc",
         "description": "Uncertainty of the dipole polarizability",
@@ -2350,6 +2350,19 @@
         "id": 184,
         "table_name": "elements",
         "unit": "USD/kg",
+        "value_origin": "STORED"
+    },
+    {
+        "annotations": "In the original paper multiple values of electronegativity are provided for several elements. The values corresponding to following hybrids were chosen:\n\n- C *sp3*\n- N *p*\n- O *p*\n- F *p*\n- CL *p*\n- Br *p*\n- I *p*",
+        "attribute_name": "en_mullay",
+        "category": "chemical properties",
+        "citation_keys": "mullay1984atomic",
+        "class_name": "Element",
+        "column_name": "en_mullay",
+        "description": "Mullay's scale of electronegativity",
+        "id": 185,
+        "table_name": "elements",
+        "unit": null,
         "value_origin": "STORED"
     }
 ]
