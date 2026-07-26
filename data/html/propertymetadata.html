@@ -64,7 +64,7 @@
 <TD>Element</TD>
 <TD>atomic_volume</TD>
 <TD>atomic size properties</TD>
-<TD>STORED</TD>
+<TD>COMPUTED</TD>
 <TD>Atomic volume</TD>
 <TD>cm^3/mol</TD>
 <TD></TD>
@@ -229,38 +229,38 @@ Original values for gasses are converted from g/L to g/cm\ :sup:`3`.
 
 For elements where several allotropes exist, the density corresponding to the most abundant are reported (for full list refer to :cite:`haynes2014crc`), namely:
 
-   - Antimony (gray)
-   - Berkelium (α form)
-   - Carbon (graphite)
-   - Phosphorus (white)
-   - Selenium (gray)
-   - Sulfur (rhombic)
-   - Tin (white)
+- Antimony (gray)
+- Berkelium (α form)
+- Carbon (graphite)
+- Phosphorus (white)
+- Selenium (gray)
+- Sulfur (rhombic)
+- Tin (white)
 
 For elements where experimental data is not available, theoretical estimates taken from :cite:`enwiki:1039678864` are used, namely for:
 
-   - Astatine
-   - Francium
-   - Einsteinium
-   - Fermium
-   - Mendelevium
-   - Nobelium
-   - Lawrencium
-   - Rutherfordium
-   - Dubnium
-   - Seaborgium
-   - Bohrium
-   - Hassium
-   - Meitnerium
-   - Darmstadtium
-   - Roentgenium
-   - Copernicium
-   - Nihonium
-   - Flerovium
-   - Moscovium
-   - Livermorium
-   - Tennessine
-   - Oganesson
+- Astatine
+- Francium
+- Einsteinium
+- Fermium
+- Mendelevium
+- Nobelium
+- Lawrencium
+- Rutherfordium
+- Dubnium
+- Seaborgium
+- Bohrium
+- Hassium
+- Meitnerium
+- Darmstadtium
+- Roentgenium
+- Copernicium
+- Nihonium
+- Flerovium
+- Moscovium
+- Livermorium
+- Tennessine
+- Oganesson
 </TD>
 <TD>haynes2014crc,enwiki:1039678864</TD>
 </TR>
@@ -347,11 +347,11 @@ For elements where experimental data is not available, theoretical estimates tak
 <TD>eV</TD>
 <TD>Electron affinities were taken from :cite:`haynes2014crc` for the elements for which the data was available. For He, Be, N, Ar and Xe affinities were taken from :cite:`Andersen2004` where they were specified for metastable ions and therefore the values are negative.
    
-   Updates
+Updates
 
-     - Electron affinity of niobium was taken from :cite:`Luo2016`.
-     - Electron affinity of cobalt was taken from :cite:`Chen2016a`.
-     - Electron affinity of lead was taken from :cite:`Chen2016`.</TD>
+- Electron affinity of niobium was taken from :cite:`Luo2016`.
+- Electron affinity of cobalt was taken from :cite:`Chen2016a`.
+- Electron affinity of lead was taken from :cite:`Chen2016`.</TD>
 <TD>haynes2014crc,Andersen2004</TD>
 </TR>
 <TR><TD>27</TD>
@@ -1079,23 +1079,17 @@ For elements where experimental data is not available, theoretical estimates tak
 <TD>STORED</TD>
 <TD>See ScreeningConstant class documentation</TD>
 <TD></TD>
-<TD>   The screening constants were calculated according to the following formula
+<TD>The screening constants were calculated according to the following formula
 
-   .. math::
-   
-      \sigma_{n,l,m} = Z - n\cdot\zeta_{n,l,m}
-   
-   where :math:`n` is the principal quantum number, :math:`Z` is the atomic number,
-   :math:`\sigma_{n,l,m}` is the screening constant, :math:`\zeta_{n,l,m}` is the
-   optimized exponent from :cite:`Clementi1963,Clementi1967`.
-   
-   For elements Nb, Mo, Ru, Rh, Pd and Ag the exponent values corresponding to the
-   ground state electronic configuration were taken (entries with superscript `a`
-   in Table II in :cite:`Clementi1967`).
-   
-   For elements La, Pr, Nd and Pm two exponent were reported for 4f shell denoted
-   4f and 4f&#39; in :cite:`Clementi1967`. The value corresponding to 4f were used
-   since according to the authors these are the dominant ones.</TD>
+.. math::
+
+   \sigma_{n,l,m} = Z - n\cdot\zeta_{n,l,m}
+
+where :math:`n` is the principal quantum number, :math:`Z` is the atomic number, :math:`\sigma_{n,l,m}` is the screening constant, :math:`\zeta_{n,l,m}` is the optimized exponent from :cite:`Clementi1963,Clementi1967`.
+
+For elements Nb, Mo, Ru, Rh, Pd and Ag the exponent values corresponding to the ground state electronic configuration were taken (entries with superscript `a` in Table II in :cite:`Clementi1967`).
+
+For elements La, Pr, Nd and Pm two exponent were reported for 4f shell denoted 4f and 4f&#39; in :cite:`Clementi1967`. The value corresponding to 4f were used since according to the authors these are the dominant ones.</TD>
 <TD>Clementi1963,Clementi1967</TD>
 </TR>
 <TR><TD>87</TD>
@@ -1323,8 +1317,8 @@ For elements where experimental data is not available, theoretical estimates tak
 <TD>STORED</TD>
 <TD>Nuclear g-factor</TD>
 <TD></TD>
-<TD></TD>
-<TD>Stone2014</TD>
+<TD>Original data taken from :cite:`Stone2014` and updated with the data from :cite:`Stone2019table` for all ground state isotopes.</TD>
+<TD>Stone2014,Stone2019table</TD>
 </TR>
 <TR><TD>106</TD>
 <TD>isotopes</TD>
@@ -1336,7 +1330,7 @@ For elements where experimental data is not available, theoretical estimates tak
 <TD>Uncertainty of the nuclear g-factor</TD>
 <TD></TD>
 <TD></TD>
-<TD>Stone2014</TD>
+<TD>Stone2014,Stone2019table</TD>
 </TR>
 <TR><TD>107</TD>
 <TD>isotopes</TD>
@@ -1443,8 +1437,8 @@ For elements where experimental data is not available, theoretical estimates tak
 <TD>STORED</TD>
 <TD>Nuclear electric quadrupole moment</TD>
 <TD>100 fm^2</TD>
-<TD></TD>
-<TD>Stone2013</TD>
+<TD>Original data taken from :cite:`Stone2013` and updated with the data from :cite:`Stone2021table` for all ground state isotopes.</TD>
+<TD>Stone2013,Stone2021table</TD>
 </TR>
 <TR><TD>116</TD>
 <TD>isotopes</TD>
@@ -1453,10 +1447,10 @@ For elements where experimental data is not available, theoretical estimates tak
 <TD>quadrupole_moment_uncertainty</TD>
 <TD>isotope properties</TD>
 <TD>STORED</TD>
-<TD>Nuclear electric quadrupole moment</TD>
+<TD>Nuclear electric quadrupole moment uncertainty</TD>
 <TD>100 fm^2</TD>
 <TD></TD>
-<TD>Stone2013</TD>
+<TD>Stone2013,Stone2021table</TD>
 </TR>
 <TR><TD>117</TD>
 <TD>isotopes</TD>
@@ -2173,10 +2167,7 @@ For elements where experimental data is not available, theoretical estimates tak
 <TD>substitutability</TD>
 <TD>supply risk properties</TD>
 <TD>STORED</TD>
-<TD>The availability of suitable substitutes for a given commodity.
-High = substitution not possible or very difficult.
-Medium = substitution is possible but there may be an economic and/or performance impact
-Low = substitution is possible with little or no economic and/or performance impact</TD>
+<TD>The availability of suitable substitutes for a given commodity. High - substitution not possible or very difficult, medium - substitution is possible but there may be an economic and/or performance impact, low = substitution is possible with little or no economic and/or performance impact</TD>
 <TD></TD>
 <TD></TD>
 <TD>RSC_periodic_table</TD>
@@ -2212,8 +2203,7 @@ Low = substitution is possible with little or no economic and/or performance imp
 <TD>is_sublimation_point</TD>
 <TD>annotation flag</TD>
 <TD>STORED</TD>
-<TD>Indicates that boiling_point marks a sublimation point, where the vapor pressure of the solid phase reaches
-101 325 kPa (1 atm)</TD>
+<TD>Indicates that boiling_point marks a sublimation point, where the vapor pressure of the solid phase reaches 101.325 kPa (1 atm)</TD>
 <TD></TD>
 <TD></TD>
 <TD>haynes2016crc</TD>
@@ -2229,4 +2219,16 @@ Low = substitution is possible with little or no economic and/or performance imp
 <TD></TD>
 <TD></TD>
 <TD>haynes2016crc</TD>
+</TR>
+<TR><TD>184</TD>
+<TD>elements</TD>
+<TD>price_per_kg</TD>
+<TD>Element</TD>
+<TD>price_per_kg</TD>
+<TD>monetary</TD>
+<TD>STORED</TD>
+<TD>Price per kg in USD</TD>
+<TD>USD/kg</TD>
+<TD>In cases where a range was provided in the source, the lower value was used. In cases of multiple isotopes the lower priced isotope&#39;s price was used.</TD>
+<TD>enwiki:1262554464</TD>
 </TR>
