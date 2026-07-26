@@ -2,14 +2,17 @@
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
 
 def format_json_file(path: Path) -> None:
     """Read a JSON file, sort keys, pretty-print, and write back."""
-    with open(path) as f:
-        data = json.load(f)
+    content = path.read_text()
+    # Strip trailing commas (Python repr style) before parsing
+    content = re.sub(r",\s*([}\]])", r"\1", content)
+    data = json.loads(content)
 
     with open(path, "w") as f:
         json.dump(data, f, indent=4, sort_keys=True)
