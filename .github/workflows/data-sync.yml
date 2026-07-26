@@ -17,11 +17,11 @@ jobs:
       contents: write
       pull-requests: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           path: mendeleev-data
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           repository: lmmentel/mendeleev
           ref: ${{ github.event.client_payload.version || inputs.version }}
